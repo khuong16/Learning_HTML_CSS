@@ -28,10 +28,18 @@
 
 3. Các thẻ HTML cơ bản nên biết phần 1 ?
 
-- Các thẻ cần nhớ: div, p, h1 - h6, a.
+- Các thẻ cần nhớ: div, p, h1 - h6, a, img, ul, ol
 
 4. Các thẻ HTML cơ bản nên biết phần 2.
+
+- Thẻ sematic là những thẻ mới sinh ra ở html5 sau này.
+- Giúp code gọn hơn và đẹp hơn, mạch lạc hơn rất nhiều.
+- header, footer, aside, nav, main, section, article (sử dụng cho 1 bài viết nhỏ), iframe (nhúng video vô), span(đoạn văn bản ngắn), strong(in đậm), em(in nghiêng), b(in đậm), i(in nghiêng)
+
 5. Thẻ inline và thẻ block khác nhau như thế nào ?
+
+- Xem thẻ nào là thẻ nào là thẻ inline, thẻ nào là thẻ block thì sẽ có trang web để check: https://htmlreference.io/
+
 6. Sự khác nhau giữa class và id.
 7. BEM là gì ? Tìm hiểu BEM toàn tập.
 8. Thực hành phân tích giao diện cơ bản với BEM
