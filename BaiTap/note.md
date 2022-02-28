@@ -48,13 +48,32 @@
 
 6. Sự khác nhau giữa class và id:
 
-- custom attribute: sử dụng cấu trúc data-\*
+- Custom Attribute: sử dụng cấu trúc data-\*
   (ví dụ: sử dụng href trong thẻ div, data-href)
 - class: có thể trùng nhau, sử dụng cho nhiều phần tử giống nhau.
 - id: duy nhất, chỉ có duy nhất 1 id đó (không được trùng nhau)
   VD: khi làm việc với form, input,...
 
 7. BEM là gì ? Tìm hiểu BEM toàn tập.
+
+- BEM(Block Element Modifier) là quy chuẩn đặt tên class.
+  VD: Laptop : Block
+  Keyboard, Mouse, Touchpad, Screen: Element
+  Laptop big, Laptop small: Modifier for Block
+  Small keyboard, small screen: Modifier for Element
+
+      Block__Element--modifier
+      Block--modifier
+      Block__Element
+
+      laptop
+      laptop__keyboard, laptop__touchpad, laptop__screen
+      laptop--small, laptop--expensive, laptop--big
+      laptop__touchpad--smouth, laptop__screen--scale
+
+      tiêu đề: title
+      danh mục: category
+
 8. Thực hành phân tích giao diện cơ bản với BEM
 9. Bài tập chương 1
 10. Giới thiệu bài tập chương 1 phần 1.
