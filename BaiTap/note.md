@@ -76,12 +76,23 @@
 
 8. Thực hành phân tích giao diện cơ bản với BEM
 
-- sử dụng một số trang có UI theo mẫu trước: https://collectui.com/
+- Sử dụng một số trang có UI theo mẫu trước: https://collectui.com/
 - Modifiers sẽ luôn đi kèm với block hoặc elements đó khi mà đang sử dụng.
 
 9. Bài tập chương 1
-10. Giới thiệu bài tập chương 1 phần 1.
-11. Nắm vững Emmet cơ bản trong VSCode.
+
+# Tạo 1 file HTML như đã học và làm tât cả các bài dưới đây vào.
+
+1. Liệt kê 10 thẻ inline, 10 thẻ block và các thẻ semantic HTML5 mà bạn biết
+
+2. Làm 1 ví dụ về BEM cho block có tên là `boy`
+
+3. Hãy làm 1 ví dụ về sự kết hợp giữa thẻ block và thẻ inline
+
+4. Áp dụng kiến thức về BEM đặt tên cho UI này: static.collectui.com/shots/1436570/dropdown-menu-large Hint: Block có tên `dropdown`
+
+5. Giới thiệu bài tập chương 1 phần 1.
+6. Nắm vững Emmet cơ bản trong VSCode.
 
 ## Chương 2: Kiến thức CSS cơ bản phần 1
 
