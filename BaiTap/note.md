@@ -91,8 +91,17 @@
 
 4. Áp dụng kiến thức về BEM đặt tên cho UI này: static.collectui.com/shots/1436570/dropdown-menu-large Hint: Block có tên `dropdown`
 
-5. Giới thiệu bài tập chương 1 phần 1.
-6. Nắm vững Emmet cơ bản trong VSCode.
+5. Giới thiệu bài tập chương 1 phần 1:
+
+6. Nắm vững Emmet cơ bản trong VSCode:
+
+- Emmet giúp code tốt hơn và nhanh hơn.
+- Sử dụng phím 'Alt và mũi tên lên xuống' để di chuyển 1 đoạn code.
+- Tạo 1 dòng y chang nhau: Shift + Alt + mũi tên lên xuống
+- ul>li\*10{item$}
+- Tạo thẻ cùng cấp với nhau: h1.title+p.desc+div.demo>p.text
+  h1.title+p.desc+.demo>p.text+p.text2^.job
+- Có thể vô google gõ: emmet cheat sheet
 
 ## Chương 2: Kiến thức CSS cơ bản phần 1
 
