@@ -4,15 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>HTML và CSS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <!-- 10 thẻ inline-->
     <span></span>
     <a href=""></a>
+    <img src="" alt="">
+    <strong></strong>
+    <em></em>
+    <i></i>
+    <b></b>
+    <button></button>
+    <sub></sub>
+    <sup></sup>
+
     <!-- 10 thẻ block -->
     <div></div>
+    <section></section>
+    <body>
+    </body>
+    <h1></h1>
+    <h2></h2>
+    <h3></h3>
+    <h4></h4>
+    <h5></h5>
+    <h6></h6>
     <p></p>
+
     <!-- thẻ sematic -->
     <header></header>
     <footer></footer>
@@ -20,15 +40,26 @@
     <article></article>
     <main></main>
     <nav></nav>
+
     <!-- 1 ví dụ về BEM cho block có tên là 'boy'-->
-    <div class="boy"></div>
+    <div class="boy__arm--long"></div>
+
     <!-- Ví dụ sự kết hợp của inline và block-->
     <p>Xin chào mừng bạn dến với tôi <a href="">Minh</a></p>
+    
     <!--Áp dụng kiến thức về BEM đặt tên cho UI này: static.collectui.com/shots/1436570/dropdown-menu-large -->
-    Block: dropdown
-    Element: new,view, settings,logout
-    Modifier
 
-    dropdown__new, dropdown__view, dropdown__settings, dropdown__logout
+    <div class="dropdown">
+        <div class="dropdown__select">
+            <span class="dropdown__selected"></span>
+            <i class="fa fa-caret-down dropdown__caret"></i>
+        </div>
+        <div class="dropdown__list">
+            <div class="dropdown__item">
+                <span class="dropdown__title"></span>
+                <i class="fa fa-plus dropdown__icon"></i>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
