@@ -39,6 +39,12 @@
 5. Thẻ inline và thẻ block khác nhau như thế nào ?
 
 - Xem thẻ nào là thẻ nào là thẻ inline, thẻ nào là thẻ block thì sẽ có trang web để check: https://htmlreference.io/
+- Thẻ inline sẽ có độ rộng bằng nội dung nó chứa
+- Nếu nhiều thẻ inline thì nó sẽ nằm trên cùng 1 hàng với nhau.
+- Thẻ inline bị hạn chế về CSS
+
+- Thẻ block có độ rông full phần tử chứa nó.
+- Nếu nhiều thẻ block nằm với nhau thì nó rớt xuống hàng.
 
 6. Sự khác nhau giữa class và id.
 7. BEM là gì ? Tìm hiểu BEM toàn tập.
