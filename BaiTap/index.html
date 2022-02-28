@@ -7,11 +7,25 @@
     <title>Document</title>
 </head>
 <body>
-    <a href="google.com">Google</a>
-    <p></p>
-    <div data-href="value"></div>
-    <div class="a b c"></div>
-    <div id="id"></div>
-    <section></section>
+    <!-- Ex1: 
+        Block: flash-message
+        Element: image, title, description(desc), button
+        Modifier: Primary, Secondary
+    -->
+
+    <!-- Block 1 & 2:
+        flash-message
+        flash-message__image, flash-message__title, flash-message__desc, flash-message__button
+        
+        Block1: flash-message__title--primary, flash-message__button--primary
+        Block2: flash-message__title--secondary, flash-message__button--secondary
+    -->
+
+    <h3 class="flash-message__title flash-message__title--primary">
+        Right On
+    </h3>
+    <button class="flash-message__button flash-message__button--primary">
+        Click On
+    </button>
 </body>
 </html>

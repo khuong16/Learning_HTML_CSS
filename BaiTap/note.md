@@ -75,6 +75,10 @@
       danh mục: category
 
 8. Thực hành phân tích giao diện cơ bản với BEM
+
+- sử dụng một số trang có UI theo mẫu trước: https://collectui.com/
+- Modifiers sẽ luôn đi kèm với block hoặc elements đó khi mà đang sử dụng.
+
 9. Bài tập chương 1
 10. Giới thiệu bài tập chương 1 phần 1.
 11. Nắm vững Emmet cơ bản trong VSCode.
