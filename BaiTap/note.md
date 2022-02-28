@@ -46,7 +46,14 @@
 - Thẻ block có độ rông full phần tử chứa nó.
 - Nếu nhiều thẻ block nằm với nhau thì nó rớt xuống hàng.
 
-6. Sự khác nhau giữa class và id.
+6. Sự khác nhau giữa class và id:
+
+- custom attribute: sử dụng cấu trúc data-\*
+  (ví dụ: sử dụng href trong thẻ div, data-href)
+- class: có thể trùng nhau, sử dụng cho nhiều phần tử giống nhau.
+- id: duy nhất, chỉ có duy nhất 1 id đó (không được trùng nhau)
+  VD: khi làm việc với form, input,...
+
 7. BEM là gì ? Tìm hiểu BEM toàn tập.
 8. Thực hành phân tích giao diện cơ bản với BEM
 9. Bài tập chương 1
