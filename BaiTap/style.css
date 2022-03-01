@@ -11,3 +11,17 @@ Id: #container, #footer
 Property: color, background-color
 Value: red, orange, yellow
 */
+
+p {
+ /* color: value */
+ /*
+    named: red, orange, blue, green
+    hexa: #ffa400, #666666 -> #666, #7cd7cd -> #7cd
+    rgb: rgb(0,0,0), rgb(255,255,255)
+    rgba: (alpha: opacity 0 -> 1) rgba(0,0,0,0.5)
+ */
+ color: red;
+ color: #ffa400;
+ color: rgb(0, 0, 0);
+ color: rgba(0,0,0,0.5);
+}
