@@ -107,7 +107,23 @@
 
 1. CSS reset là gì ? Tại sao phải dùng reset CSS ?
 
+- Lấy những reset css là sẽ lấy trong đây:
+  https://meyerweb.com/eric/tools/css/reset/
+
 2. Cấu trúc của 1 đoạn code trong CSS như thế nào ?
+
+selector {
+property: value;
+}
+
+Selector:
+Tags: p, div, h1, main, a, span
+Class: .demo, .header, .boy
+Id: #container, #footer
+
+Property: color, background-color
+Value: red, orange, yellow
+
 3. Tìm hiểu thuộc tính color, các giá trị về màu sắc cần nắm vững.
 4. Nắm vững kiến thức về kích thước trong CSS.
 5. Làm hình nền với thuộc tính về background

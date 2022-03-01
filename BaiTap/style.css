@@ -1,0 +1,13 @@
+/* 
+    selector {
+        property: value;
+    }
+
+Selector:
+Tags: p, div, h1, main, a, span
+Class: .demo, .header, .boy
+Id: #container, #footer
+
+Property: color, background-color
+Value: red, orange, yellow
+*/
