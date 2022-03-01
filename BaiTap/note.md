@@ -105,24 +105,25 @@
 
 ## Chương 2: Kiến thức CSS cơ bản phần 1
 
-- CSS reset là gì ? Tại sao phải dùng reset CSS ?
-- Cấu trúc của 1 đoạn code trong CSS như thế nào ?
-- Tìm hiểu thuộc tính color, các giá trị về màu sắc cần nắm vững.
-- Nắm vững kiến thức về kích thước trong CSS.
-- Làm hình nền với thuộc tính về background
-- Các đơn vị trong css nên biết.
-- Đơn vị em và rem khác nhau như thế nào ?
-- Thuộc tính về border cơ bản.
-- Nắm rõ thuộc tính margin
-- Hiểu về thuộc tính padding.
-- Tìm hiểu về box-sizing trong CSS.
-- Tìm hiểu thuộc tính display.
-- Các thuộc tính liên quan tới font cơ bản.
-- Các thuộc tính liên quan tới chữ bạn cần biết.
-- Tìm hiểu thuộc tính cho hình ảnh.
-- Pseudo là gì ? Các pseudo cơ bản người mới học nên biết.
-- Bài tập chương 2 phần 1
-- Bài tập chương 2 phần 2
+1. CSS reset là gì ? Tại sao phải dùng reset CSS ?
+
+2. Cấu trúc của 1 đoạn code trong CSS như thế nào ?
+3. Tìm hiểu thuộc tính color, các giá trị về màu sắc cần nắm vững.
+4. Nắm vững kiến thức về kích thước trong CSS.
+5. Làm hình nền với thuộc tính về background
+6. Các đơn vị trong css nên biết.
+7. Đơn vị em và rem khác nhau như thế nào ?
+8. Thuộc tính về border cơ bản.
+9. Nắm rõ thuộc tính margin
+10. Hiểu về thuộc tính padding.
+11. Tìm hiểu về box-sizing trong CSS.
+12. Tìm hiểu thuộc tính display.
+13. Các thuộc tính liên quan tới font cơ bản.
+14. Các thuộc tính liên quan tới chữ bạn cần biết.
+15. Tìm hiểu thuộc tính cho hình ảnh.
+16. Pseudo là gì ? Các pseudo cơ bản người mới học nên biết.
+17. Bài tập chương 2 phần 1
+18. Bài tập chương 2 phần 2
 
 ## Chương 3: Kiến thức CSS cơ bản phần 2
 
