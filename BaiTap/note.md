@@ -152,6 +152,21 @@ Value: red, orange, yellow
   vw,vh nó chỉ quan tâm mỗi viewport(màn hình) mà nó hiển thị mà thôi.
 
 7. Đơn vị em và rem khác nhau như thế nào ?
+
+- mặc định font-size trình duyệt là 100% -> 16px
+- 1em = 1rem = 16px
+
+Phân biệt em với rem:
+
+- em là đơn vị sẽ phụ thuộc vào thuộc tính font-size của chính nó hoặc phần tử chứa nó.
+- rem Là đơn vị sẽ phụ thuộc vào thuộc tính font-size của thẻ html của nó
+  Do 100% là 12px, nó quá là lẻ và khó quy đổi
+  nên là ta quy ước luôn là
+  html {
+  font-size: 62.5%;
+  1rem = 10px
+  }
+
 8. Thuộc tính về border cơ bản.
 9. Nắm rõ thuộc tính margin
 10. Hiểu về thuộc tính padding.

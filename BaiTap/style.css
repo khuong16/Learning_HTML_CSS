@@ -65,3 +65,30 @@ p {
 .wrap {
     width: 400px;
 }
+
+html {
+    font-size: 62.5%;
+    /* 1rem = 10px */
+}
+
+.em {
+    width: 10em;
+    height: 10em;
+    background-color: #ffa400;
+    font-size: 32px;
+    /* 1em = 32px */
+    /* Là đơn vị sẽ phụ thuộc vào thuộc tính font-size của chính nó hoặc phần tử chứa nó */
+}
+
+.rem {
+    font-size: 32px;
+    width: 10rem;
+    height: 10rem;
+    background-color: pink;
+    /* Là đơn vị sẽ phụ thuộc vào thuộc tính font-size của html */
+}
+
+/* 100% = 16px 
+    ?% = 10px
+    ? = 62.5px
+*/
