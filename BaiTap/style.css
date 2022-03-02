@@ -112,3 +112,30 @@ html {
     ?% = 10px
     ? = 62.5px
 */
+
+.margin {
+    width: 14rem;
+    height: 14rem;
+    background-color: red;
+    margin: 10px 10px 10px 10px;
+    margin-top: 20px;
+    margin-right: 30px;
+    margin-left: 40px;
+    margin-bottom: 50px;
+
+    /* 1 giá trị -> top = right = left = bottom = 20px */
+    margin: 20px;
+
+    /* 2 giá trị -> top = bottom = 20px, right = left = 40px */
+    margin: 20px 40px;
+
+    /* 3 giá trị -> top = 10px, right = left = 20px, bottom = 30px  */
+    margin: 10px 20px 30px;
+
+    /* 4 giá trị -> top = 10px, right = 20px, bottom = 30px, left = 40px  */
+    margin: 10px 20px 30px 40px;
+
+    /* center */
+    margin-left: auto;
+    margin-right: auto;
+}

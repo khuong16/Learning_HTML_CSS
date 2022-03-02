@@ -176,9 +176,28 @@ Phân biệt em với rem:
 
 9. Nắm rõ thuộc tính margin:
 
--
+1 giá trị -> top = right = left = bottom = 20px
+margin: 20px;
 
-10. Hiểu về thuộc tính padding.
+2 giá trị -> top = bottom = 20px, right = left = 40px
+margin: 20px 40px;
+
+3 giá trị -> top = 10px, right = left = 20px, bottom = 30px
+margin: 10px 20px 30px;
+
+4 giá trị -> top = 10px, right = 20px, bottom = 30px, left 40px
+margin: 10px 20px 30px 40px;
+
+Đối với thẻ block mà muốn căn giữa thì có 2 thuộc tính này.
+margin-left sẽ cho block đó nằm sát vào bên phải.
+margin-left: auto;
+margin-right: auto;
+
+- Khi làm với margin sẽ có khái niệm margin collapse
+  thì thằng margin sẽ lấy giá trị lớn hơn.
+
+10. Hiểu về thuộc tính padding:
+
 11. Tìm hiểu về box-sizing trong CSS.
 12. Tìm hiểu thuộc tính display.
 13. Các thuộc tính liên quan tới font cơ bản.
