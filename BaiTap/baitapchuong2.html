@@ -13,20 +13,24 @@
             font-family: 'Roboto', sans-serif;
         }
 
+        html {
+            font-size: 62.5%;
+        }
+
         .box {
-            width: 200px;
-            height: 300px;
+            width: 20rem;
+            height: 30rem;
             background-color: #ffa400;
-            color: black;
-            border: yellow 1px solid;
-            padding: 10px;
-            margin: 15px;
+            color: red;
+            border: 4px solid yellow;
+            padding: 1rem;
+            margin: 1.5rem;
             border-radius: 4px;
             text-align: center;
         }
 
         .box2 {
-            max-width: 500px;
+            max-width: 50rem;
             background-color: greenyellow;
             /* 3 hàng kết hợp 3 dấu chấm*/
             display: -webkit-box;
@@ -40,28 +44,33 @@
             max-width: 100px;
             background-color: bisque;
             /* 1 hàng với 3 dấu chấm */
+            /* Nằm trên cùng 1 hàng */
             white-space: nowrap;
+            /* dài quá thì sẽ bị ẩn đi*/
             overflow: hidden;
+            /* thêm dấu 3 chấm */
             text-overflow: ellipsis;
         }
 
         .box4 {
             width: 100vw;
             height: 100vh;
-            background-image: url('https://images.unsplash.com/photo-1646071206496-0d8288613824?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80');
+            /* background-image: url('https://images.unsplash.com/photo-1646071206496-0d8288613824?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80');
             background-repeat: no-repeat;
             background-size: cover;
-            background-position: right;
+            background-position: center right; */
+            background: url('https://images.unsplash.com/photo-1646071206496-0d8288613824?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80') no-repeat center right / cover;
         }
 
         .box5 {
-            width: 400px;
-            height: 400px;
+            width: 40rem;
+            height: 40rem;
             background-image: url('https://images.unsplash.com/photo-1646071206496-0d8288613824?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80');
-            
+            border-radius: 50%;
+            object-fit: cover;
         }
 
-        .btn-first {
+        /* .btn-first {
             width: 120px;
            height: 50px;
            background-color: blue;
@@ -104,12 +113,34 @@
         a:hover{
             color: red;
             background-color: aqua;
+        } */
+
+        .link {
+            text-decoration: none;
+            padding: 1rem 5rem;
+            text-align: center;
+            color: wheat;
+            background-color: violet;
+            margin-left: 2rem;
+        }
+
+        .link:hover{
+            color: black;
+            background-color: white;
+        }
+
+        .link--rounded {
+            border-radius: 4px;
+        }
+
+        .link--round{
+            border-radius: 2rem;
         }
     </style>
 </head>
 <body>
     <div class="box">
-
+        My name is Khương
     </div>
     <div class="box2">
         aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
@@ -137,7 +168,7 @@
     <div class="box5">
 
     </div>
-    <div class="button-wrap">
+    <!-- <div class="button-wrap">
         <div class="button-first">
             <p class="text">SQAURE CORNERS</p>
             <button class="btn-first">BUTTON</button>
@@ -165,6 +196,12 @@
             <p class="text">ROUND CORNERS</p>
             <a class="a" href="">A3</a>
         </div>
+    </div> -->
+
+    <div class="button">
+        <a href="" class="link">Button</a>
+        <a href="" class="link link--rounded">Button</a>
+        <a href="" class="link link--round">Button</a>
     </div>
 </body>
 </html>
