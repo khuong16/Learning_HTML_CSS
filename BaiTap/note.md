@@ -146,6 +146,11 @@ Value: red, orange, yellow
   background-position, background-repeat
 
 6. Các đơn vị trong css nên biết.
+
+- có 2 đơn vị là % và vw,vh.
+  % thì nó ăn theo độ dài, độ rộng của div cha chưa nó.
+  vw,vh nó chỉ quan tâm mỗi viewport(màn hình) mà nó hiển thị mà thôi.
+
 7. Đơn vị em và rem khác nhau như thế nào ?
 8. Thuộc tính về border cơ bản.
 9. Nắm rõ thuộc tính margin
