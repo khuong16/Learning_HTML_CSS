@@ -279,19 +279,32 @@ box-sizing: border-box;
 
 ## Chương 3: Kiến thức CSS cơ bản phần 2
 
-- Cách làm hình nền gradient, chữ gradient trong CSS
-- Hiển thị 2 hình nền với background-image
-- Caniuse là gì ? và tại sao bạn nên biết.
-- Sự khác nhau giữa 3 thuộc tính opacity, display, visibility
-- Tìm hiểu về shadow trong CSS.
-- Sự dụng biến trong CSS như thế nào ?
-- Hiểu rõ về độ ưu tiên trong CSS, xác định độ ưu tiên trong CSS đơn giản với VSCode.
-- Nắm vững kiến thức về child selectors
-- Nắm vững kiến thức về type selectors
-- Thành thạo combinators trong CSS
-- Tìm hiểu thêm các selectors nâng cao
-- Nắm vững thuộc tính transition cơ bản.
-- Bài tập chưỡng 3.
+1. Cách làm hình nền gradient, chữ gradient trong CSS:
+
+- gradient đc hiểu là các màu được mix lại với nhau.
+- thường sẽ dùng gradient khi có background-image:
+  vị trí: to right, to left, to bottom, to top.
+  to right bottom, to left bottom, to left top, to right top.
+  bo góc: 120deg
+  màu: color1
+  color2
+
+- Muốn làm chữ trong suốt thì thuộc tính color: transparent và thêm 2 thuộc tính nữa:
+  -webkit-background-clip: text;
+  background-clip: text;
+
+2. Hiển thị 2 hình nền với background-image
+3. Caniuse là gì ? và tại sao bạn nên biết.
+4. Sự khác nhau giữa 3 thuộc tính opacity, display, visibility
+5. Tìm hiểu về shadow trong CSS.
+6. Sự dụng biến trong CSS như thế nào ?
+7. Hiểu rõ về độ ưu tiên trong CSS, xác định độ ưu tiên trong CSS đơn giản với VSCode.
+8. Nắm vững kiến thức về child selectors
+9. Nắm vững kiến thức về type selectors
+10. Thành thạo combinators trong CSS
+11. Tìm hiểu thêm các selectors nâng cao
+12. Nắm vững thuộc tính transition cơ bản.
+13. Bài tập chương 3.
 
 ## Chương 4: Kiến thức CSS nâng cao
 

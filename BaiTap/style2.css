@@ -1,0 +1,43 @@
+html {
+    font-size: 62.5%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 1.6rem;
+    font-weight: normal;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.boxed {
+    width: 20rem;
+    height: 20rem;
+    background-image: linear-gradient(to right bottom, #00aefd 30%, #ffa400 50%);
+    /*
+    direction: to right, to left, to bottom, to top.
+    to right bottom, to left bottom, to left top, to right top.
+    120deg
+    color1
+    color2
+
+    */
+}
+
+.title {
+    font-weight: bold;
+    font-size: 3rem;
+    background-image: linear-gradient(to right bottom, #00aefd 30%, #ffa400 50%);
+    display: inline-block;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
