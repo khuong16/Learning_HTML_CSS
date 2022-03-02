@@ -167,8 +167,17 @@ Phân biệt em với rem:
   1rem = 10px
   }
 
-8. Thuộc tính về border cơ bản.
-9. Nắm rõ thuộc tính margin
+8. Thuộc tính về border cơ bản:
+
+- border: border-width border-style border-color
+- border-raius: chỉ số.
+  (border-top, border-right, border-left, border-bottom)
+  (border-top-left, border-top-right, border-bottom-left, border-bottom-right)
+
+9. Nắm rõ thuộc tính margin:
+
+-
+
 10. Hiểu về thuộc tính padding.
 11. Tìm hiểu về box-sizing trong CSS.
 12. Tìm hiểu thuộc tính display.

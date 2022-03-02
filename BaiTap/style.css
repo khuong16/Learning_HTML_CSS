@@ -84,8 +84,28 @@ html {
     font-size: 32px;
     width: 10rem;
     height: 10rem;
+     /* Là đơn vị sẽ phụ thuộc vào thuộc tính font-size của html */
+
     background-color: pink;
-    /* Là đơn vị sẽ phụ thuộc vào thuộc tính font-size của html */
+    /* border: 2px solid black; */
+    /* border: border-width border-style border-color */
+
+    /* nó sẽ tương đương với*/
+    border-width: 2px;
+    border-style: solid;
+    border-style: dotted;
+    border-style: dashed;
+    border-color: black;
+
+    /* Ngoài ra có thể border theo hướng*/
+    /* border-top, border-left, border-right, border-bottom */
+    border-radius: 1rem 2rem 3rem 4rem;
+    /* Có thể border ở những vị trí cụ thể:
+        border-top-left-radius
+        border-top-right-radius
+        border-bottom-left-radius
+        border-bottom-right-radius
+    */
 }
 
 /* 100% = 16px 
