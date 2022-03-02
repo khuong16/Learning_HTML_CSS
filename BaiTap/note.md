@@ -233,8 +233,39 @@ box-sizing: border-box;
 - In đậm lên : font-weight.
 - Kiểu chữ: font-style
 
-14. Các thuộc tính liên quan tới chữ bạn cần biết.
-15. Tìm hiểu thuộc tính cho hình ảnh.
+14. Các thuộc tính liên quan tới chữ bạn cần biết:
+
+- line-height
+  mặc định line height sẽ là 1.
+  line-height: 1.5;
+
+  text-align: left;
+  text-align: center;
+  text-align: justify;
+
+  Letter spacing chính là khoảng cách giứa các chữ. Mặc định letter spacing là 0px
+  letter-spacing: 1px;
+
+  word-spacing chính là khoảng cách giữa các từ
+  word-spacing: 5px;
+
+  Hiển thị dấu 3 chấm trên 1 hàng
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  Hiển thị dấu 3 chấm tới hàng thứ 3
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  dùng để cho chữ nó tự động rớt xuống hàng cho vừa độ rộng
+  word-break: break-all;
+
+15. Tìm hiểu thuộc tính cho hình ảnh:
+
 16. Pseudo là gì ? Các pseudo cơ bản người mới học nên biết.
 17. Bài tập chương 2 phần 1
 18. Bài tập chương 2 phần 2

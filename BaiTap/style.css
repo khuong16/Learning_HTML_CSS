@@ -190,3 +190,50 @@ a {
     background-color: aqua;
     display: block;
 }
+
+.font {
+    /* mặc định line height sẽ là 1. */
+    line-height: 1.5;
+    text-align: left;
+    /* text-align: center;
+    text-align: justify; */
+    /* max-width: 300px; */
+    /* Letter spacing chính là khoảng cách giứa các chữ. Mặc định letter spacing là 0px */
+    letter-spacing: 1px;
+    /* word-spacing chính là khoảng cách giữa các từ */
+    word-spacing: 5px;
+
+    /* Hiển thị dấu 3 chấm trên 1 hàng */
+    /* white-space: nowrap; */
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    /* Hiển thị dấu 3 chấm tới hàng thứ 3 */
+    /* display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    text-overflow: ellipsis; */
+
+    /* dùng để cho chữ nó tự động rớt xuống hàng cho vừa content */
+    word-break: break-all;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.image {
+    width: 20rem;
+    height: 20rem;
+    /* phủ hết khung cho vừa độ dài,rộng*/
+    object-fit: cover;
+    display: inline-block;
+    object-position: bottom;
+    margin: 0 auto;
+}
+
+.img-wrap {
+    text-align: center;
+}
