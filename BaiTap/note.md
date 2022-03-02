@@ -205,7 +205,21 @@ margin-right: auto;
 
 - Thuộc tính margin có thể sử dụng được số âm, còn padding thì KHÔNG ĐƯỢC DÙNG SỐ ÂM.
 
-11. Tìm hiểu về box-sizing trong CSS.
+11. Tìm hiểu về box-sizing trong CSS:
+
+Giá trị mặc định của box-sizing
+box-sizing: content-box;
+Ta cần chuyển nó thành:
+box-sizing: border-box;
+
+    content-box:
+        width = width + padding-left + padding-right + border-left + border-right
+        height = height + padding-top + padding-bottom + border-top + border-bottom
+
+    border-box:
+        width thực tế = width ban đầu - padding-left - padding-right - border-left - border-right
+        height thực tế = height ban đầu - padding-top - padding-bottom - border-top - border-bottom
+
 12. Tìm hiểu thuộc tính display.
 13. Các thuộc tính liên quan tới font cơ bản.
 14. Các thuộc tính liên quan tới chữ bạn cần biết.
