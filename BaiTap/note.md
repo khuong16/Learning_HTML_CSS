@@ -126,7 +126,17 @@ Value: red, orange, yellow
 
 3. Tìm hiểu thuộc tính color, các giá trị về màu sắc cần nắm vững.
 
-4. Nắm vững kiến thức về kích thước trong CSS.
+- color: value
+
+  named: red, orange, blue, green
+  hexa: #ffa400, #666666 -> #666, #7cd7cd -> #7cd
+  rgb: rgb(0,0,0), rgb(255,255,255)
+  rgba: (alpha: opacity 0 -> 1) rgba(0,0,0,0.5)
+
+4. Nắm vững kiến thức về kích thước trong CSS:
+
+- khi bị nó tràn ra ngoài, tràn khỏi kích thước của mình nên mình muốn ẩn đi thì dùng : overflow: hidden.
+
 5. Làm hình nền với thuộc tính về background
 6. Các đơn vị trong css nên biết.
 7. Đơn vị em và rem khác nhau như thế nào ?

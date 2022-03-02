@@ -25,3 +25,15 @@ p {
  color: rgb(0, 0, 0);
  color: rgba(0,0,0,0.5);
 }
+
+.background {
+    /* width: 100px; */
+    min-width: 100px;
+    max-width: 50%;
+    /* height: 100px; */
+    min-height: 100px;
+    max-height: 200px;
+    background-color: #2979ff;
+    /* overflow: hidden; */
+    /* overflow-y: auto; */
+}
