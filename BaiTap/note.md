@@ -220,7 +220,11 @@ box-sizing: border-box;
         width thực tế = width ban đầu - padding-left - padding-right - border-left - border-right
         height thực tế = height ban đầu - padding-top - padding-bottom - border-top - border-bottom
 
-12. Tìm hiểu thuộc tính display.
+12. Tìm hiểu thuộc tính display:
+
+- Có thể chuyển đổi từ thẻ inline sang thẻ block thì ta sẽ sử dụng là display: block hoặc inline-block
+  Còn muốn ẩn luôn thẻ đó đi thì sử dụng display: none.
+
 13. Các thuộc tính liên quan tới font cơ bản.
 14. Các thuộc tính liên quan tới chữ bạn cần biết.
 15. Tìm hiểu thuộc tính cho hình ảnh.

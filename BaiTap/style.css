@@ -173,3 +173,13 @@ p {
         height thực tế = height ban đầu - padding-top - padding-bottom - border-top - border-bottom
     */
 }
+
+a {
+    color: #ffa400;
+    text-decoration: none;
+    width: 10rem;
+    height: 10rem;
+    padding: 1rem;
+    background-color: aqua;
+    display: block;
+}
