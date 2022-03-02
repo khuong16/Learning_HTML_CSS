@@ -266,6 +266,10 @@ box-sizing: border-box;
 
 15. Tìm hiểu thuộc tính cho hình ảnh:
 
+- Đối với hình ảnh thì thẻ img là thẻ inline nên là nếu muốn ra giữa thì sử dụng thuộc tính text-align:center
+- còn nếu ko thì chuyển nó về block sau đó sử dụng thuộc tính : margin: 0 auto là sẽ căn giữa đc.
+- Muốn ảnh hiển thị đủ trong khung của mình muốn thì có thuộc tính: object-fit: cover
+
 16. Pseudo là gì ? Các pseudo cơ bản người mới học nên biết.
 17. Bài tập chương 2 phần 1
 18. Bài tập chương 2 phần 2
