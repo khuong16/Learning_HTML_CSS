@@ -136,8 +136,15 @@ Value: red, orange, yellow
 4. Nắm vững kiến thức về kích thước trong CSS:
 
 - khi bị nó tràn ra ngoài, tràn khỏi kích thước của mình nên mình muốn ẩn đi thì dùng : overflow: hidden.
+- Sử dụng các thuộc tính về kích thước như là:
+  min-width, max-width, min-height, max-height.
 
-5. Làm hình nền với thuộc tính về background
+5. Làm hình nền với thuộc tính về background:
+
+- Các thuộc tính thêm về background như là:
+  background-color, background-size, background-attachment
+  background-position, background-repeat
+
 6. Các đơn vị trong css nên biết.
 7. Đơn vị em và rem khác nhau như thế nào ?
 8. Thuộc tính về border cơ bản.
