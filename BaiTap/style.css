@@ -237,3 +237,16 @@ img {
 .img-wrap {
     text-align: center;
 }
+
+.pseudo {
+    color: black;
+    font-size: 5rem;
+}
+
+.pseudo:hover {
+    color: #ffa400;
+}
+
+.pseudo:visited {
+    color: green;
+}
