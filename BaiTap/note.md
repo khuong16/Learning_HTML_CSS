@@ -173,6 +173,7 @@ Phân biệt em với rem:
 - border-raius: chỉ số.
   (border-top, border-right, border-left, border-bottom)
   (border-top-left, border-top-right, border-bottom-left, border-bottom-right)
+- Điểm khác nhau giữa thằng outline và border là outline sẽ không thể có được bo góc.
 
 9. Nắm rõ thuộc tính margin:
 
@@ -197,6 +198,12 @@ margin-right: auto;
   thì thằng margin sẽ lấy giá trị lớn hơn.
 
 10. Hiểu về thuộc tính padding:
+
+- margin (outer spacing) >< padding (inner spacing)
+- các thông số của padding cũng y hệt như với là margin
+  4 giá trị, 3 giá trị, 2 giá trị, 1 giá trị.
+
+- Thuộc tính margin có thể sử dụng được số âm, còn padding thì KHÔNG ĐƯỢC DÙNG SỐ ÂM.
 
 11. Tìm hiểu về box-sizing trong CSS.
 12. Tìm hiểu thuộc tính display.
