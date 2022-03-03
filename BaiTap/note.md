@@ -425,7 +425,12 @@ Vẽ theo một góc nghiêng (hình bình hành)
 - thẻ cha mang thuộc tính position relative
 - Sử dụng z-index để có thể hiển thị lớp mong muốn, tất nhiên là phải đi kèm thuộc tính position.
 
-4. Hiểu rõ position fixed hoạt động.
+4. Hiểu rõ position fixed hoạt động:
+
+- fixed: cố định.
+- fixed chỉ phụ thuộc vào thẻ body thôi chứ ko phụ thuộc vào thẻ cha chứa nó như relative hay absolute.
+- Khi sử dụng fixed thì ko nên sử dụng thuộc tính transform vì sẽ bị vỡ layout.
+
 5. Thực hành với thuộc tính position bài 1.
 6. Thực hành với thuộc tính position bài 2.
 7. Thực hành với thuộc tính position bài 3.
