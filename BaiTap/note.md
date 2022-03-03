@@ -343,8 +343,18 @@ box-sizing: border-box;
 - Tags < Class < id < inline < thuộc tính !important
 
 x, y, z -> tags, class or atr, id.
+VD: 0,0,1
+0,1,0
+1,0,0
 
-8. Nắm vững kiến thức về child selectors
+8. Nắm vững kiến thức về child selectors:
+
+- :first-child, :last-child.
+- :nth-child(1,2,3,....): sẽ bắt đầu thứ tự từ 1.
+- :nth-last-child...
+- :not(...)
+- :nth-child(odd), :nth-child(even)
+
 9. Nắm vững kiến thức về type selectors
 10. Thành thạo combinators trong CSS
 11. Tìm hiểu thêm các selectors nâng cao

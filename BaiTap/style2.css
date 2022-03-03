@@ -96,3 +96,48 @@ h2 {
 h2 {
     color: blue !important;
 }
+
+ul {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+li:first-child {
+    color: red;
+}
+
+li:last-child {
+    color: orange;
+}
+
+li:nth-child(2){
+    color: purple;
+}
+
+li:nth-child(7){
+    color: antiquewhite;
+}
+
+li:nth-last-child(2){
+    color: yellow;
+}
+
+li:not(:first-child){
+    color: greenyellow;
+}
+
+li:not(:last-child){
+    color: brown;
+}
+
+li:nth-child(odd){
+    color: turquoise;
+}
+
+li:nth-child(even){
+    color: blue;
+}
+
+li:nth-child(2n+1){
+    color: red;
+}
