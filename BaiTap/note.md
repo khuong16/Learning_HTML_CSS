@@ -355,7 +355,14 @@ VD: 0,0,1
 - :not(...)
 - :nth-child(odd), :nth-child(even)
 
-9. Nắm vững kiến thức về type selectors
+9. Nắm vững kiến thức về type selectors:
+
+- type thì nó sẽ check theo kiểu, theo Tags
+- Còn child sẽ check thì vị trí.
+
+có thể sử dụng : first-of-type, last-of-type, nth-of-type.
+nth-last-of-type
+
 10. Thành thạo combinators trong CSS
 11. Tìm hiểu thêm các selectors nâng cao
 12. Nắm vững thuộc tính transition cơ bản.
