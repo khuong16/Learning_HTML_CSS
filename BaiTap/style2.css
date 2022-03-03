@@ -150,7 +150,6 @@ h3 + .title {
     width: 20rem;
     height: 20rem;
     background-color: red;
-    display: none;
     /* transition: background-color 0.2s linear, color 0.2s ease; */
     
     transition: all 0,2s linear;

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bài Tập Chương 3</title>
+    <style>
+      html {
+        font-size: 62.5%;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        font-size: 1.6rem;
+        font-weight: normal;
+      }
+
+      img {
+        display: block;
+        max-width: 100%;
+      }
+      /* Bài 1 */
+      .button {
+        display: inline-block;
+        padding: 1rem 3rem;
+        text-align: center;
+        border-radius: 6px;
+        margin: 2rem;
+        color: white;
+        text-transform: uppercase;
+        background-image: linear-gradient(to left, #50cfc6, #68ecac);
+        font-size: 1.2rem;
+        box-shadow: 0 0 10px 0 rgba(104, 236, 172, 0.494);
+      }
+
+      /* Bài 2 */
+      .text-gradient {
+        display: inline-block;
+        font-size: 10rem;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+        background-image: linear-gradient(to left, #ff4895, #ffd96a);
+      }
+      /* Bài 3 */
+      .color__item {
+        width: 10rem;
+        height: 10rem;
+        border-radius: 4px;
+        margin-left: 2rem;
+        margin-bottom: 2rem;
+        list-style-type: none;
+        transition: background-color 2s linear;
+      }
+
+      .color__item:first-child {
+        background-color: #a24bf0;
+      }
+
+      .color__item:nth-child(2) {
+        background-color: #ffd96a;
+      }
+
+      .color__item:nth-child(3) {
+        background-color: #38dbb2;
+      }
+
+      .color__item:nth-last-child(2) {
+        background-color: #ea344f;
+      }
+
+      .color__item:last-child {
+        background-color: #a24bf0;
+      }
+
+      /* Bài 4 */
+      .color__item:hover {
+        background-color: red;
+      }
+
+      /* Bài 5 */
+      div[data-link^="https"] {
+        color: orange;
+      }
+
+      div[data-link$=".vn"] {
+        color: aqua;
+      }
+
+      div[data-name*="hello"] {
+        color: brown;
+      }
+
+      input[type="email"] {
+        color: purple;
+      }
+
+      input[name="fullname"] {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Bài 1-->
+    <div class="button button--green">Success</div>
+
+    <!-- Bài 2-->
+    <h2 class="text-gradient">TEXT</h2>
+
+    <!-- Bài 3 -->
+    <ul class="color__list">
+      <li class="color__item"></li>
+      <li class="color__item"></li>
+      <li class="color__item"></li>
+      <li class="color__item"></li>
+      <li class="color__item"></li>
+    </ul>
+
+    <!-- Bài 5-->
+    <div class="wrap-four"></div>
+    <div class="wrap-five">
+      <div data-link="google.com">google.com</div>
+      <div data-link="vnexpress.vn">facebook.com</div>
+      <div data-name="hello">hello</div>
+      <div data-name="againhello">again hello</div>
+      <input type="email" name="email" />
+      <input type="text" name="fullname" />
+    </div>
+  </body>
+</html>

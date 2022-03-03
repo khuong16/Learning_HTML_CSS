@@ -394,23 +394,23 @@ VD: h2 ~ .abc
 
 ## Chương 4: Kiến thức CSS nâng cao
 
-- Thuộc tính transform để làm gì ? Tìm hiểu các giá trị hay dùng của transform.
-- Tìm hiểu thuộc tính position relative.
-- Master thuộc tính tính position absolute.
-- Hiểu rõ position fixed hoạt động.
-- Thực hành với thuộc tính position bài 1.
-- Thực hành với thuộc tính position bài 2.
-- Thực hành với thuộc tính position bài 3.
-- Thực hành với thuộc tính position bài 4.
-- Hiểu và nắm tốt pseudo :before và :after khó nhằn trong CSS.
-- Thực hành với pseudo before và after bài 1.
-- Thực hành với pseudo before và after bài 2.
-- Thực hành với pseudo before và after bài 3.
-- Thực hành với pseudo before và after bài 4.
-- Tại sao before và after quan trọng và lưu ý khí làm với transform.
-- Animation là gì ? Tìm hiểu và nắm vững kiến thức về animation cơ bản.
-- Thực hành với animation bài số 1.
-- Thực hành với animation bài số 2.
+1. Thuộc tính transform để làm gì ? Tìm hiểu các giá trị hay dùng của transform.
+2. Tìm hiểu thuộc tính position relative.
+3. Master thuộc tính tính position absolute.
+4. Hiểu rõ position fixed hoạt động.
+5. Thực hành với thuộc tính position bài 1.
+6. Thực hành với thuộc tính position bài 2.
+7. Thực hành với thuộc tính position bài 3.
+8. Thực hành với thuộc tính position bài 4.
+9. Hiểu và nắm tốt pseudo :before và :after khó nhằn trong CSS.
+10. Thực hành với pseudo before và after bài 1.
+11. Thực hành với pseudo before và after bài 2.
+12. Thực hành với pseudo before và after bài 3.
+13. Thực hành với pseudo before và after bài 4.
+14. Tại sao before và after quan trọng và lưu ý khí làm với transform.
+15. Animation là gì ? Tìm hiểu và nắm vững kiến thức về animation cơ bản.
+16. Thực hành với animation bài số 1.
+17. Thực hành với animation bài số 2.
 
 ## Chương 5: Flexbox toàn tập
 
