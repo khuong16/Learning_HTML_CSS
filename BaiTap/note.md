@@ -384,7 +384,12 @@ VD: h2 ~ .abc
 - Có trang web sẽ chia sẻ vấn đề css nâng cao.
   https://www.w3schools.com/cssref/css_selectors.asp
 
-12. Nắm vững thuộc tính transition cơ bản.
+12. Nắm vững thuộc tính transition cơ bản:
+
+- transition dùng để làm hiệu ứng, dùng để ẩn/hiện một cái nào đấy.
+  transition: property timer(2s) linear
+  có transition-delay để delay ẩn/hiển sau 1 khoảng thời gian.
+
 13. Bài tập chương 3.
 
 ## Chương 4: Kiến thức CSS nâng cao

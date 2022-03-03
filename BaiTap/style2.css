@@ -145,3 +145,23 @@ li:nth-child(2n+1){
 h3 + .title {
     color: green;
 }
+
+.boxed2 {
+    width: 20rem;
+    height: 20rem;
+    background-color: red;
+    display: none;
+    /* transition: background-color 0.2s linear, color 0.2s ease; */
+    
+    transition: all 0,2s linear;
+    
+    /* transition: background-color 2s linear;
+    transition-delay: 2s; */
+    /* transition: property timer(2s) easing */
+}
+
+.boxed2:hover {
+    background-color: green;
+    color: whitesmoke;
+    cursor: pointer;
+}
