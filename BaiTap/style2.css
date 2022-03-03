@@ -1,3 +1,8 @@
+:root {
+    --primary-color: #00aefd;
+    --secondary-color: #ffa400;
+}
+
 html {
     font-size: 62.5%;
 }
@@ -43,7 +48,7 @@ img {
 .title {
     font-weight: bold;
     font-size: 3rem;
-    background-image: linear-gradient(to right bottom, #00aefd 30%, #ffa400 50%);
+    background-image: linear-gradient(to right bottom, var(--primary-color) 30%, var(--secondary-color) 50%);
     display: inline-block;
     margin-top: 2rem;
     margin-left: 2rem;

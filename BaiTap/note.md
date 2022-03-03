@@ -329,7 +329,15 @@ box-sizing: border-box;
 
 - Làm tương tự với text.
 
-6. Sự dụng biến trong CSS như thế nào ?
+6. Sử dụng biến trong CSS như thế nào ?
+
+- khai báo trong thuộc tính root.
+  :root {
+  --tenbien:abcxyz;
+  }
+
+- khi muốn sử dụng thì phải sử dụng var(tên biến)
+
 7. Hiểu rõ về độ ưu tiên trong CSS, xác định độ ưu tiên trong CSS đơn giản với VSCode.
 8. Nắm vững kiến thức về child selectors
 9. Nắm vững kiến thức về type selectors
