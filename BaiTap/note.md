@@ -293,7 +293,11 @@ box-sizing: border-box;
   -webkit-background-clip: text;
   background-clip: text;
 
-2. Hiển thị 2 hình nền với background-image
+2. Hiển thị 2 hình nền với background-image:
+
+- kết hợp lớp gradient với image.
+  background-image: gradient , image
+
 3. Caniuse là gì ? và tại sao bạn nên biết.
 4. Sự khác nhau giữa 3 thuộc tính opacity, display, visibility
 5. Tìm hiểu về shadow trong CSS.

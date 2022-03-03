@@ -38,6 +38,15 @@ img {
     margin-top: 2rem;
     margin-left: 2rem;
     color: transparent;
+    
     -webkit-background-clip: text;
     background-clip: text;
+}
+
+
+.background2 {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to right bottom, rgba(0, 173, 253, 0.822) 30%, rgba(255, 166,0,0.761) 50%), url('https://images.unsplash.com/photo-1646183524322-19dc884efb25?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80');
+    background-size: cover;
 }
