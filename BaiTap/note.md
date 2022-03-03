@@ -363,7 +363,14 @@ VD: 0,0,1
 có thể sử dụng : first-of-type, last-of-type, nth-of-type.
 nth-last-of-type
 
-10. Thành thạo combinators trong CSS
+10. Thành thạo combinators trong CSS:
+
+- CSS combinators sẽ có 2 cái là dấu + và ~.
+
+dấu + hay dấu ~ thì luôn luôn phải cùng cấp với nhau thì mình mới css được.
+và tất nhiên khi css thì phải css từ trên xuống dưới.
+VD: h2 ~ .abc
+
 11. Tìm hiểu thêm các selectors nâng cao
 12. Nắm vững thuộc tính transition cơ bản.
 13. Bài tập chương 3.
