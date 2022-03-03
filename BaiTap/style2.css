@@ -43,6 +43,12 @@ img {
     background-clip: text;
 }
 
+@supports(-webkit-background-clip: text){
+    .title {
+        
+    }
+}
+
 
 .background2 {
     width: 100vw;

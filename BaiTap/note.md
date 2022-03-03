@@ -298,7 +298,16 @@ box-sizing: border-box;
 - kết hợp lớp gradient với image.
   background-image: gradient , image
 
-3. Caniuse là gì ? và tại sao bạn nên biết.
+3. Caniuse là gì ? và tại sao bạn nên biết:
+
+- trang web caniuse xem các thuộc tính khác nhau sẽ có hỗ trợ ở trình duyệt khác nhau hay ko ?
+  VD: thuộc tính color có hỗ trợ bên trình duyệt IE hay ko ..
+- Sử dụng rule @supports để có thể hiển thị tùy chỉnh.
+  @supports(-webkit-background-clip: text){
+  .title {
+      }
+  }
+
 4. Sự khác nhau giữa 3 thuộc tính opacity, display, visibility
 5. Tìm hiểu về shadow trong CSS.
 6. Sự dụng biến trong CSS như thế nào ?
