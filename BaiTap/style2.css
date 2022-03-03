@@ -20,6 +20,16 @@ img {
     width: 20rem;
     height: 20rem;
     background-image: linear-gradient(to right bottom, #00aefd 30%, #ffa400 50%);
+    cursor: pointer;
+    /* Opacity vẫn chiếm diện tích, có thể nhấn vào được */
+    opacity: 0.5;
+    
+    /* Visibility vẫn chiến diện tích, nhưng KHÔNG nhấn vào được */
+    visibility: hidden;
+
+    /* display: none thì biến mất, ko chiếm diện tích, KHÔNG NHẤN VÔ ĐƯỢC. */
+    display: none;
+    
     /*
     direction: to right, to left, to bottom, to top.
     to right bottom, to left bottom, to left top, to right top.
@@ -45,7 +55,7 @@ img {
 
 @supports(-webkit-background-clip: text){
     .title {
-        
+
     }
 }
 

@@ -305,10 +305,20 @@ box-sizing: border-box;
 - Sử dụng rule @supports để có thể hiển thị tùy chỉnh.
   @supports(-webkit-background-clip: text){
   .title {
-      }
+  }
   }
 
-4. Sự khác nhau giữa 3 thuộc tính opacity, display, visibility
+4. Sự khác nhau giữa 3 thuộc tính opacity, display, visibility:
+
+- Opacity vẫn chiếm diện tích, có thể nhấn vào được
+  opacity: 0.5;
+
+  Visibility vẫn chiến diện tích, nhưng KHÔNG nhấn vào được
+  visibility: hidden;
+
+  display: none thì biến mất, ko chiếm diện tích, KHÔNG NHẤN VÔ ĐƯỢC.
+  display: none;
+
 5. Tìm hiểu về shadow trong CSS.
 6. Sự dụng biến trong CSS như thế nào ?
 7. Hiểu rõ về độ ưu tiên trong CSS, xác định độ ưu tiên trong CSS đơn giản với VSCode.
