@@ -31,6 +31,52 @@ img {
    /* transform: rotateZ(30deg); */
 
    position: relative;
-   left: 10px;
-   top: 10px
+   /* left: 10px;
+   top: 10px */
+}
+
+p {
+    color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.wrap {
+    width: 100%;
+    height: 50rem;
+    background-color: black;
+    position: relative;
+}
+
+.boxed {
+    position: absolute;
+    /* top: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%); */
+
+    /* overlay all: phủ hết tất cả */
+    /* top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; */
+
+    /* Cách 2 */
+    /* top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: auto;
+    height: auto; */
+
+    /* overlay theo chiều ngang */
+    /* width: auto;
+    right: 0;
+    left: 0;
+    top: 0; */
+
+    /* overlay theo chiều dọc */
+    height: auto;
+    top: 0;
+    bottom: 0;
+    /* z-index: 2; */
 }

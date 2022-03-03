@@ -419,7 +419,12 @@ Vẽ theo một góc nghiêng (hình bình hành)
 - Nó cũng giống như là transform , cũng vẫn vị trí đó nhưng mà sẽ được 'di chuyển' đi mà ko làm vỡ layout.
 - thuộc tính top, left, bottom, right sẽ đi kèm với thuộc tính là positon:relative
 
-3. Master thuộc tính tính position absolute.
+3. Master thuộc tính tính position absolute:
+
+- thẻ con phải mang thuộc tính position absolute.
+- thẻ cha mang thuộc tính position relative
+- Sử dụng z-index để có thể hiển thị lớp mong muốn, tất nhiên là phải đi kèm thuộc tính position.
+
 4. Hiểu rõ position fixed hoạt động.
 5. Thực hành với thuộc tính position bài 1.
 6. Thực hành với thuộc tính position bài 2.
