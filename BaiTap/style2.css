@@ -58,11 +58,11 @@ img {
     background-clip: text;
 }
 
-@supports(-webkit-background-clip: text){
+/* @supports(-webkit-background-clip: text){
     .title {
 
     }
-}
+} */
 
 
 .background2 {
@@ -84,4 +84,15 @@ img {
 
         Làm tương tự với text.
     */
+}
+
+
+h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: orange;
+}
+
+h2 {
+    color: blue !important;
 }

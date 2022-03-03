@@ -338,7 +338,12 @@ box-sizing: border-box;
 
 - khi muốn sử dụng thì phải sử dụng var(tên biến)
 
-7. Hiểu rõ về độ ưu tiên trong CSS, xác định độ ưu tiên trong CSS đơn giản với VSCode.
+7. Hiểu rõ về độ ưu tiên trong CSS, xác định độ ưu tiên trong CSS đơn giản với VSCode:
+
+- Tags < Class < id < inline < thuộc tính !important
+
+x, y, z -> tags, class or atr, id.
+
 8. Nắm vững kiến thức về child selectors
 9. Nắm vững kiến thức về type selectors
 10. Thành thạo combinators trong CSS
