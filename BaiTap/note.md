@@ -395,6 +395,25 @@ VD: h2 ~ .abc
 ## Chương 4: Kiến thức CSS nâng cao
 
 1. Thuộc tính transform để làm gì ? Tìm hiểu các giá trị hay dùng của transform.
+
+- transform nó vẫn giữ nguyên khung của nó nhưng mà nó sẽ thay đổi được 'kích thước' của nó.
+
+Scale (to ra, thu gọn,..) theo 1 kích thước nào đó.
+
+- transform: scale scaleX scaleY
+
+Xoay cái khối của mình theo 1 góc nào đó
+
+- transform: rotate(Xdeg)
+
+Cách ra một khoảng theo chiều X và Y
+
+- transform: translate translateX translateY
+
+Vẽ theo một góc nghiêng (hình bình hành)
+
+- transform: skewX(...)
+
 2. Tìm hiểu thuộc tính position relative.
 3. Master thuộc tính tính position absolute.
 4. Hiểu rõ position fixed hoạt động.

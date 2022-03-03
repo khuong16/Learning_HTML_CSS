@@ -1,0 +1,32 @@
+html {
+    font-size: 62.5%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 1.6rem;
+    font-weight: normal;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.boxed {
+    width: 5rem;
+    height: 5rem;
+    background-color: red;
+    /* transform: scaleX(2) scaleY(2);
+    transform: scale(2,2);
+    transform: rotate(45deg); */
+    
+    /* transform: scale scaleX scaleY */
+   /*transform: scale(2) rotate(45deg) translate(100%, 50%); */
+   margin: 5rem; 
+   /* transform: skewX(-30deg) skewY(-30deg); */
+   transform: rotateZ(30deg);
+}
