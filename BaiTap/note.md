@@ -371,7 +371,19 @@ dấu + hay dấu ~ thì luôn luôn phải cùng cấp với nhau thì mình m�
 và tất nhiên khi css thì phải css từ trên xuống dưới.
 VD: h2 ~ .abc
 
-11. Tìm hiểu thêm các selectors nâng cao
+11. Tìm hiểu thêm các selectors nâng cao:
+
+- Css cho các attr
+  VD: css cho các thẻ a có thuôc tính attr là https
+  a[href^="https"]{
+  color: blue;
+  }
+  kết thúc thì sử dụng dấu '$'
+  có chứa thì sử dụng dấu '\*'
+
+- Có trang web sẽ chia sẻ vấn đề css nâng cao.
+  https://www.w3schools.com/cssref/css_selectors.asp
+
 12. Nắm vững thuộc tính transition cơ bản.
 13. Bài tập chương 3.
 
