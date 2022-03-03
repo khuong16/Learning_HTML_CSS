@@ -26,7 +26,11 @@ img {
     
     /* transform: scale scaleX scaleY */
    /*transform: scale(2) rotate(45deg) translate(100%, 50%); */
-   margin: 5rem; 
+   /* margin: 5rem;  */
    /* transform: skewX(-30deg) skewY(-30deg); */
-   transform: rotateZ(30deg);
+   /* transform: rotateZ(30deg); */
+
+   position: relative;
+   left: 10px;
+   top: 10px
 }

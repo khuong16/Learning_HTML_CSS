@@ -414,7 +414,11 @@ Vẽ theo một góc nghiêng (hình bình hành)
 
 - transform: skewX(...)
 
-2. Tìm hiểu thuộc tính position relative.
+2. Tìm hiểu thuộc tính position relative:
+
+- Nó cũng giống như là transform , cũng vẫn vị trí đó nhưng mà sẽ được 'di chuyển' đi mà ko làm vỡ layout.
+- thuộc tính top, left, bottom, right sẽ đi kèm với thuộc tính là positon:relative
+
 3. Master thuộc tính tính position absolute.
 4. Hiểu rõ position fixed hoạt động.
 5. Thực hành với thuộc tính position bài 1.
