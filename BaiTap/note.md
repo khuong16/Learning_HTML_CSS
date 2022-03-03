@@ -319,7 +319,16 @@ box-sizing: border-box;
   display: none thì biến mất, ko chiếm diện tích, KHÔNG NHẤN VÔ ĐƯỢC.
   display: none;
 
-5. Tìm hiểu về shadow trong CSS.
+5. Tìm hiểu về shadow trong CSS:
+
+- shadow dùng để tạo độ bóng cho chữ.
+  box-shadow: x y blur scale color
+  giá trị của x y blur scale có thể là px
+
+  inset là tạo độ bóng bên trong, outset (giá trị mặc định) là tạo độ bóng bên ngoài
+
+- Làm tương tự với text.
+
 6. Sự dụng biến trong CSS như thế nào ?
 7. Hiểu rõ về độ ưu tiên trong CSS, xác định độ ưu tiên trong CSS đơn giản với VSCode.
 8. Nắm vững kiến thức về child selectors

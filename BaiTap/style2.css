@@ -66,3 +66,17 @@ img {
     background-image: linear-gradient(to right bottom, rgba(0, 173, 253, 0.822) 30%, rgba(255, 166,0,0.761) 50%), url('https://images.unsplash.com/photo-1646183524322-19dc884efb25?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80');
     background-size: cover;
 }
+
+.shadow {
+    width: 20rem;
+    height: 20rem;
+    background-color: black;
+    margin: 5rem auto;
+    box-shadow: inset 17px -11px 9px 7px rgba(0, 173, 253, 0.822);
+    /* box-shadow: x y blur scale  color
+        giá trị của x y blur scale có thể là px
+        inset là tạo độ bóng bên trong, outset (giá trị mặc định) là tạo độ bóng bên ngoài
+
+        Làm tương tự với text.
+    */
+}
