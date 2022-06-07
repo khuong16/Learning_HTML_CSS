@@ -527,8 +527,11 @@ transfrom: rotate(-45deg)
 11. Thực hành với pseudo before và after bài 2.
 12. Thực hành với pseudo before và after bài 3.
 13. Thực hành với pseudo before và after bài 4.
-14. Tại sao before và after quan trọng và lưu ý khí làm với transform.
+
+14. Tại sao before và after quan trọng và lưu ý khi làm với transform.
+
 15. Animation là gì ? Tìm hiểu và nắm vững kiến thức về animation cơ bản.
+
 16. Thực hành với animation bài số 1.
 17. Thực hành với animation bài số 2.
 

@@ -17,10 +17,31 @@ img {
     max-width: 100%;
 }
 
-.title::before{
+/* .title::before{
     content: "Toi ten la: ";
 }
 
 .title::after{
     content: " Hoc HTML, CSS";
+} */
+
+.title{
+    position: relative;
+    padding-left: 2rem;
+    margin: 5rem;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.title::before{
+    content: "";
+    width: 1rem;
+    height: 1rem;
+    border-radius: 1rem;
+    background-color: red;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    
 }
