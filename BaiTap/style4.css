@@ -1,0 +1,46 @@
+html {
+    font-size: 62.5%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 1.6rem;
+    font-weight: normal;
+    height: 2000px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+body {
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+}
+
+.modal {
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.282);
+}
+
+.modal-content {
+    width: 90%;
+    height: 90%;
+    background-color: white;
+    padding: 5rem;
+    position: absolute;
+    /* căn ra giữa */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

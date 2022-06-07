@@ -59,6 +59,7 @@
 - BEM(Block Element Modifier) là quy chuẩn đặt tên class.
   VD: Laptop : Block
   Keyboard, Mouse, Touchpad, Screen: Element
+  
   Laptop big, Laptop small: Modifier for Block
   Small keyboard, small screen: Modifier for Element
 
@@ -136,19 +137,32 @@ Value: red, orange, yellow
 4. Nắm vững kiến thức về kích thước trong CSS:
 
 - khi bị nó tràn ra ngoài, tràn khỏi kích thước của mình nên mình muốn ẩn đi thì dùng : overflow: hidden.
+
+- nếu muốn scroll nữa thì bổ sung là:
+overflow-y: auto 
+(để scroll nội dung)
+
 - Sử dụng các thuộc tính về kích thước như là:
   min-width, max-width, min-height, max-height.
 
 5. Làm hình nền với thuộc tính về background:
 
+background-image: đường link hình ảnh
+làm việc với background là phải set width và height tương ứng.
+
 - Các thuộc tính thêm về background như là:
-  background-color, background-size, background-attachment
-  background-position, background-repeat
+  background-color: hiển thị màu nền
+  background-size: hiển thị xem hình ảnh có phủ hết hay ko (cover)
+  background-attachment: hình ảnh scroll thì ko muốn scroll thì phải dùng (fixed)
+  background-position, 
+  background-repeat: thường thường các hình nhỏ sẽ bị lặp lại (n-repeat)
 
 6. Các đơn vị trong css nên biết.
 
 - có 2 đơn vị là % và vw,vh.
+
   % thì nó ăn theo độ dài, độ rộng của div cha chưa nó.
+
   vw,vh nó chỉ quan tâm mỗi viewport(màn hình) mà nó hiển thị mà thôi.
 
 7. Đơn vị em và rem khác nhau như thế nào ?
@@ -160,7 +174,7 @@ Phân biệt em với rem:
 
 - em là đơn vị sẽ phụ thuộc vào thuộc tính font-size của chính nó hoặc phần tử chứa nó.
 - rem Là đơn vị sẽ phụ thuộc vào thuộc tính font-size của thẻ html của nó
-  Do 100% là 12px, nó quá là lẻ và khó quy đổi
+  Do 100% là 16px, nó quá là lẻ và khó quy đổi
   nên là ta quy ước luôn là
   html {
   font-size: 62.5%;
@@ -170,9 +184,10 @@ Phân biệt em với rem:
 8. Thuộc tính về border cơ bản:
 
 - border: border-width border-style border-color
-- border-raius: chỉ số.
+- border-radius: chỉ số.
   (border-top, border-right, border-left, border-bottom)
   (border-top-left, border-top-right, border-bottom-left, border-bottom-right)
+
 - Điểm khác nhau giữa thằng outline và border là outline sẽ không thể có được bo góc.
 
 9. Nắm rõ thuộc tính margin:
@@ -191,6 +206,8 @@ margin: 10px 20px 30px 40px;
 
 Đối với thẻ block mà muốn căn giữa thì có 2 thuộc tính này.
 margin-left sẽ cho block đó nằm sát vào bên phải.
+
+cho cái block đó ra giữa.
 margin-left: auto;
 margin-right: auto;
 
@@ -267,6 +284,8 @@ box-sizing: border-box;
 15. Tìm hiểu thuộc tính cho hình ảnh:
 
 - Đối với hình ảnh thì thẻ img là thẻ inline nên là nếu muốn ra giữa thì sử dụng thuộc tính text-align:center
+nhưng phải có thể bọc cái hình ảnh mình muốn ra giữa.
+
 - còn nếu ko thì chuyển nó về block sau đó sử dụng thuộc tính : margin: 0 auto là sẽ căn giữa đc.
 - Muốn ảnh hiển thị đủ trong khung của mình muốn thì có thuộc tính: object-fit: cover
 
@@ -275,7 +294,27 @@ box-sizing: border-box;
 - Có các trạng thái như là: hover, visited,...
 
 17. Bài tập chương 2 phần 1
+
+1. Tạo một khối có class là `box` có độ rộng và chiều cao lần lượt là `200x300` có màu nền là `#ffa400` và chữ bất kỳ màu đen, border màu vàng, padding 10px, margin 15px bo góc 4px, chữ canh giữa.
+
+2. Tạo một khối có đoạn chữ rất dài bât kỳ, có độ rộng tối đa là `500px` hiển thị 3 hàng kết hợp dấu 3 chấm
+
+3. Tạo một khối có đoạn chữ rất dài bât kỳ, có độ rộng tối đa là `100px` hiển thị 1 hàng kết hợp dấu 3 chấm
+
+4. Tạo một khối có độ rộng và chiều cao lần lượt là `100vw` `100vh` cho hình nền bất kỳ, yêu cầu phủ toàn khối, canh góc bên phải, không có lặp lại
+
 18. Bài tập chương 2 phần 2
+
+5. Tạo một khối có độ rộng và chiêu cao tương ứng là `400x400` và cho hình ảnh hiển thị bên trong, yêu cầu khối này là hình tròn, và hình ảnh nằm trọn bên trong, không được méo, không được tràn ra ngoài.
+
+6. Chèn font từ Google vào bài tập sử dụng Fonts `Roboto` với các độ đậm là `400` và `600`
+
+7. Tạo ra các button như hình: designerup.co/blog/content/images/2019/01/button_corners.png sử dụng padding, margin, text-align, kiến thức đã học
+
+8. Tương tự bài 7 nhưng dùng thẻ `a`
+
+9. Áp dụng pseudo `:hover` để khi rê chuột vào kết quả bài 8 thì đổi màu nền và màu chữ
+
 
 ## Chương 3: Kiến thức CSS cơ bản phần 2
 
@@ -288,8 +327,10 @@ box-sizing: border-box;
   bo góc: 120deg
   màu: color1
   color2
+  VD: background-image: linear-gradient(to right bottom,120deg, #00000 30%, #909201 50%)
 
 - Muốn làm chữ trong suốt thì thuộc tính color: transparent và thêm 2 thuộc tính nữa:
+  color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
 
@@ -308,10 +349,10 @@ box-sizing: border-box;
   }
   }
 
-4. Sự khác nhau giữa 3 thuộc tính opacity, display, visibility:
+4. Sự khác nhau giữa 3 thuộc tính opacity, display, visibility: opacity:0, display:none, visibility: hidden.
 
 - Opacity vẫn chiếm diện tích, có thể nhấn vào được
-  opacity: 0.5;
+  opacity: 0;
 
   Visibility vẫn chiến diện tích, nhưng KHÔNG nhấn vào được
   visibility: hidden;
@@ -327,7 +368,7 @@ box-sizing: border-box;
 
   inset là tạo độ bóng bên trong, outset (giá trị mặc định) là tạo độ bóng bên ngoài
 
-- Làm tương tự với text.
+- Làm tương tự với text nhưng không có giá trị scale
 
 6. Sử dụng biến trong CSS như thế nào ?
 
@@ -348,6 +389,7 @@ VD: 0,0,1
 1,0,0
 
 8. Nắm vững kiến thức về child selectors:
+ứng dụng cho menu ul, li
 
 - :first-child, :last-child.
 - :nth-child(1,2,3,....): sẽ bắt đầu thứ tự từ 1.
@@ -389,8 +431,45 @@ VD: h2 ~ .abc
 - transition dùng để làm hiệu ứng, dùng để ẩn/hiện một cái nào đấy.
   transition: property timer(2s) linear
   có transition-delay để delay ẩn/hiển sau 1 khoảng thời gian.
+  VD: transition: background-color 2s linear;
+  transition-delay: 2s;
 
 13. Bài tập chương 3.
+
+1. Tạo ra 6 buttons với kiến thức đã học, và có gradient đẹp như hình, có thể sử dụng BEM như `btn btn--green` chẳng hạn, trong các buttons này đều có `box-shadow` tương ứng với màu gradient luôn nên chú ý nhé: assets.materialup.com/uploads/cc065902-1545-4f0f-adc3-b9344a4f0a56/preview.png
+
+2. Tạo ra text gradient đơn giản như hình: evondev.com/wp-content/uploads/2021/09/TextFill_image6.png
+
+3. Sử dụng CSS về `child` hoặc `type` để làm các màu như hình ví dụ `color__item:first-child{background-color:red}`: cdn.dribbble.com/users/757683/screenshots/5942067/attachments/1281258/style_02.jpg
+
+4. Sử dụng :hover để khi hover vào các màu ở các bài 3 thì đổi màu bât kỳ mà các bạn thích, lưu ý có `transition` cho nó mượt
+
+5. Cho HTML như sau
+
+<div data-link="google.com">google.com</div>
+
+<div data-link="vnexpress.vn">facebook.com</div>
+
+<div data-name="hello">hello</div>
+
+<div data-name="againhello">again hello</div>
+
+<input type="email" name="email">
+
+<input type="text" name="fullname">
+
+`
+
+- Dùng kiến thức về Selectors để chọn ra các thẻ `div` có `data-link` bắt đầu bằng https
+
+- Chọn ra các thẻ `div` có `data-link` kết thúc bằng `.vn`
+
+- Chọn ra các thẻ `div` có `data-name` có chứa chữ `hello`
+
+- Chọn ra `input` có `type` là email
+
+- Chọn ra `input` có `name` là fullname
+
 
 ## Chương 4: Kiến thức CSS nâng cao
 
@@ -413,6 +492,11 @@ Cách ra một khoảng theo chiều X và Y
 Vẽ theo một góc nghiêng (hình bình hành)
 
 - transform: skewX(...)
+
+VD: transform: scaleX(2) scaleY(2)
+transform: scale(0.5, 0.5)
+transfrom: rotate(-45deg)
+
 
 2. Tìm hiểu thuộc tính position relative:
 
