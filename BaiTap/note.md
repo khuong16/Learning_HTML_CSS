@@ -519,7 +519,10 @@ transfrom: rotate(-45deg)
 6. Thực hành với thuộc tính position bài 2.
 7. Thực hành với thuộc tính position bài 3.
 8. Thực hành với thuộc tính position bài 4.
+
 9. Hiểu và nắm tốt pseudo :before và :after khó nhằn trong CSS.
+- Dùng pseudo này thì phải có giá trị là: content
+
 10. Thực hành với pseudo before và after bài 1.
 11. Thực hành với pseudo before và after bài 2.
 12. Thực hành với pseudo before và after bài 3.
