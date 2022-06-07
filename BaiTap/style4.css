@@ -86,3 +86,32 @@ body {
     top: 10px;
     z-index: 2;
 }
+
+
+.bar {
+    width: 30rem;
+    height: 1rem;
+    background-color: #ccc;
+    margin: 5rem auto 0;
+    border-radius: 2rem;
+    position: relative;
+}
+
+.bar-progress {
+    height: 100%;
+    width: 50%;
+    /* kế thừa từ thằng cha*/
+    border-radius: inherit;
+    background-color: green;
+}
+
+.bar-circle{
+    width: 2rem;
+    height: 2rem;
+    background-color: green;
+    border-radius: 2rem;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
