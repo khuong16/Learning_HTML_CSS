@@ -66,3 +66,23 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+
+.card {
+    width: 20rem;
+    height: 60rem;
+    background-color: black;
+    position: relative;
+}
+
+.sale {
+    color: wheat;
+    padding: 5px;
+    background-color: orange;
+    border-radius: 1rem;
+    font-size: 1.2rem;
+    position: absolute;
+    right: 5px;
+    top: 10px;
+    z-index: 2;
+}
