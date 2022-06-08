@@ -154,3 +154,30 @@ img {
     transform: rotate(45deg);
     z-index: -1;
 }
+
+/* Thực hành với Animation */
+.animation{
+    width: 5rem;
+    height: 5rem;
+    background-color: red;
+    /* transform: translateX(10rem); */
+
+    /* sử dụng animation */
+    animation-name: move;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+    animation-fill-mode: backwards;
+
+    animation: move 2s cubic-bezier(0.165, 0.84, 0.44, 1) 2s infinite alternate backwards;
+}
+
+@keyframes move {
+    from {
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(20rem);
+    }
+}

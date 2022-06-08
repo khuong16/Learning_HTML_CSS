@@ -531,6 +531,23 @@ transfrom: rotate(-45deg)
 14. Tại sao before và after quan trọng và lưu ý khi làm với transform.
 
 15. Animation là gì ? Tìm hiểu và nắm vững kiến thức về animation cơ bản.
+ - Để sử dụng được Animation thì sẽ dụng một cái gọi là keyframe.
+ VD: @keyframes move {
+   from -> to
+   from {
+
+   }
+   to {
+
+   }
+ }
+  
+sử dụng nó thì sẽ có:
+animation-name: move;
+animation-duration: 2s;
+animation-direction: alternate;
+animation-iteration-count: infinite;
+animation-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045);
 
 16. Thực hành với animation bài số 1.
 17. Thực hành với animation bài số 2.
