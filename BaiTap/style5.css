@@ -101,3 +101,37 @@ img {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+/* Pseudo phần 4 */
+
+.effect{
+    text-decoration: none;
+    display: inline-block;
+    padding: 2rem;
+    text-align: center;
+    background-color: white;
+    border: 1px solid orange;
+    margin: 5rem;
+    transition: color 0.25s linear;
+    position: relative;
+    z-index: 1;
+}
+.effect::before{
+    content: "";
+    height: 100%;
+    width: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: orange;
+    z-index: -1;
+    transition: all 0.25s linear;
+}
+
+.effect:hover::before{
+    width: 100%;
+}
+
+.effect:hover{
+    color: white;
+}
