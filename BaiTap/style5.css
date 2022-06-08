@@ -46,7 +46,7 @@ img {
     
 }
 
-
+/* pseudo phần 2 */
 .line{
     text-align: center;
     position: relative;
@@ -69,4 +69,35 @@ img {
     background-color: white;
     position: relative;
     z-index: 2;
+}
+
+/* Pseudo phần 3 */
+.icon{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 4px;
+    color: red;
+    /* background-color: rgba(255, 0, 0, 0.164); */
+    position: relative;
+    margin: 5rem auto;
+}
+
+.icon::after{
+    content: "";
+    border-radius: inherit;
+    /* Current color nó sẽ màu chữ của nó hoặc thằng cha chứa nó.*/
+    background-color: currentColor;
+    opacity: 0.25;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.icon-user{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
