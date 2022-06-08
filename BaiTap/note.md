@@ -552,6 +552,9 @@ animation-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045);
 16. Thực hành với animation bài số 1.
 17. Thực hành với animation bài số 2.
 
+Tham khảo thêm về loading về css
+https://loading.io/css/
+
 ## Chương 5: Flexbox toàn tập
 
 - Flexbox là gì ? Giới thiệu về Flexbox

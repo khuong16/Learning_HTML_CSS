@@ -53,3 +53,40 @@ img {
         opacity: 0.25;
     }
 }
+
+/* thực hành animation phần 2 */
+.circles{
+    text-align: center;
+    margin: 5rem;
+    /* transform: rotate(200deg); */
+    /* transform: rotate(160deg); */
+    /* transform: rotate(180deg); */
+    animation: loading 1s infinite;
+}
+
+@keyframes loading {
+    50% {
+        transform: rotate(200deg);
+    }
+
+    75% {
+        transform: rotate(160deg);
+    }
+
+    100% {
+        transform: rotate(180deg);
+    }
+}
+
+.circle-item{
+    width: 3rem;
+    height: 3rem;
+    border: 3px solid violet;
+    display: inline-block;
+    border-radius: 3rem;
+    margin: 0 0.5rem;
+}
+
+.circle-item:first-child{
+    border-color: cyan;
+}
