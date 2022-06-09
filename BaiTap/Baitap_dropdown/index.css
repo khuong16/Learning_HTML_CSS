@@ -31,12 +31,47 @@ img {
   color: white;
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 .dropdown__text {
   margin-left: 3.5rem;
 }
 .dropdown__caret {
   margin-left: auto;
+}
+.dropdown__item {
+  padding: 2rem 2.5rem 2rem 4rem;
+  display: flex;
+  align-items: center;
+  color: #b3bbce;
+  transition: all 0.2s linear;
+  cursor: pointer;
+  border-left: 3px solid transparent;
+}
+.dropdown__item:not(:last-child) {
+  border-bottom: 1px solid #eee;
+}
+.dropdown__item:hover {
+  color: #74809d;
+  border-left-color: #42a7fe;
+}
+.dropdown__list {
+  margin-top: 3rem;
+  border-radius: 4px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+.dropdown__list::before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid white;
+  position: absolute;
+  top: 0;
+  right: 2rem;
+  transform: translateY(-100%);
 }
 
 /*# sourceMappingURL=index.css.map */

@@ -1,3 +1,10 @@
+$blue-color: #42a7fe;
+
+@mixin  size($width, $height: $width) {
+    width: $width;
+    height: $height;
+}
+
 html {
     font-size: 62.5%;
 }
@@ -27,15 +34,49 @@ img {
     margin: 2rem auto 0;
     &__select {
         padding:  2rem 2.5rem 2rem 4rem;
-        background-color: #42a7fe;
+        background-color: $blue-color;
         color: white;
         display: flex;
         align-items: center;
+        cursor: pointer;
     }
     &__text {
         margin-left: 3.5rem;
     }
     &__caret {
         margin-left: auto;
+    }
+    &__item {
+        padding:  2rem 2.5rem 2rem 4rem;
+        display: flex;
+        align-items: center;
+        color: #b3bbce;
+        transition: all 0.2s linear;
+        cursor: pointer;
+        border-left: 3px solid transparent;
+        &:not(:last-child){
+            border-bottom: 1px solid #eee;
+        }
+        &:hover {
+            color: #74809d;
+            border-left-color: $blue-color;
+        }
+    }
+    &__list {
+        margin-top: 3rem;
+        border-radius: 4px;
+        box-shadow: 0 0 10px 0 rgba(black, 0.1);
+        position: relative;
+        &::before {
+            content: "";
+            @include size(0);
+            border-left: 10px solid transparent;
+            border-right: 10px solid transparent;
+            border-bottom: 10px solid white;
+            position: absolute;
+            top:0;
+            right: 2rem;
+            transform: translateY(-100%);
+        }
     }
 }
