@@ -643,11 +643,12 @@ max-width: 1023 -> <= 1023px
 19. Thực hành code giao diện đơn giản số 3 
 
 20. Tìm hiểu thêm các thuộc tính khác của Flexbox
+có khái niệm : flex-shrink và flex-grow.
 
-20. Thực hành code giao diện đơn giản số 3 phần 2
-21. Thực hành code giao diện đơn giản số 4 phần 1
-22. Thực hành code giao diện đơn giản sô 4 phần 2
-23. Thực hành code giao diện đơn giản số 4 phần 3
+20. Thực hành code giao diện đơn giản số 1 phần 1
+21. Thực hành code giao diện đơn giản số 2 phần 2
+22. Thực hành code giao diện đơn giản sô 3 phần 3
+23. Thực hành code giao diện đơn giản số 4 phần 4
 
 ## Chương 6: Các thẻ HTML về Form, Table.
 
