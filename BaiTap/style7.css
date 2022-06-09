@@ -91,7 +91,7 @@ img {
     background-color: red;
     color: wheat;
 
-
+    /* căn giữa bằng display: flex*/
     display: flex;
     align-items: center;
     justify-content: center;
