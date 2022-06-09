@@ -595,6 +595,13 @@ Vô trang css trick shapes
 https://css-tricks.com/the-shapes-of-css/
 
 7. Sass là gì ? Giới thiệu và cài đặt
+
+Cài đặt sass:
+npm install -g sass
+
+để build thì sẽ có
+sass style.scss style.css --watch
+
 8. Tìm hiểu và nắm cơ bản kiến thức về Sass cho người mới.
 9. Các lỗi hay gặp khi cài đặt Sass và cách khắc phục.
 10. Thực hành code giao diện dropdown phần 1
