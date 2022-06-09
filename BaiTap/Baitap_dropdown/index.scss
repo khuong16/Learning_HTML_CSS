@@ -17,6 +17,7 @@ body{
     font-size: 1.6rem;
     font-weight: normal;
     font-family: "Poppins",sans-serif;
+    background-color: #f3faff;
 }
 
 a {
@@ -32,6 +33,7 @@ img {
 .dropdown {
     width: 40rem;
     margin: 2rem auto 0;
+    position: relative;
     &__select {
         padding:  2rem 2.5rem 2rem 4rem;
         background-color: $blue-color;
@@ -63,20 +65,45 @@ img {
         }
     }
     &__list {
+        position: absolute;
+        left: 0;
+        top: 100%;
+        width: 100%;
         margin-top: 3rem;
         border-radius: 4px;
         box-shadow: 0 0 10px 0 rgba(black, 0.1);
-        position: relative;
+        background-color: white;
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.2s linear;
         &::before {
             content: "";
-            @include size(0);
-            border-left: 10px solid transparent;
-            border-right: 10px solid transparent;
-            border-bottom: 10px solid white;
+            @include size(2rem);
+            // border-left: 10px solid transparent;
+            // border-right: 10px solid transparent;
+            // border-bottom: 10px solid white;
+            background-color: white;
+            border-radius: 3px;
             position: absolute;
             top:0;
             right: 2rem;
+            transform: translateY(-50%) rotate(45deg);
+            z-index: -1;
+        }
+        &::after{
+            content: "";
+            position: absolute;
+            @include size(100%, 3rem);
+            top: 0;
+            left: 0;
+            background-color: transparent;
             transform: translateY(-100%);
+        }
+    }
+    &:hover {
+        .dropdown__list {
+            opacity: 1;
+            visibility: visible;
         }
     }
 }
