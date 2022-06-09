@@ -144,6 +144,20 @@
       .work-tab__item {
           margin-bottom: 1.5rem;
       }
+
+      .author {
+          padding: 0 2rem;
+          flex-direction: column;
+          height: auto;
+      }
+
+      .author__content, .author__image {
+          width: 100%;
+      }
+
+      .author__image {
+          height: 30rem;
+      }
   }
 
 
@@ -151,5 +165,52 @@
       .work {
           display: none;
       }
+  }
+
+
+  /* author */
+  .author {
+      max-width: 1000px;
+      margin: 2rem auto;
+     
+      border-radius: 1rem;
+      display: flex;
+      overflow: hidden;
+      height: 40rem;
+  }
+
+  .author__image {
+      width: 35%;
+      height: 100%;
+      object-fit: cover;
+      object-position: left;
+  }
+
+  .author__content {
+      width: 65%;
+      padding: 3rem;
+      background-color: #eee;
+  }
+
+  .author__name {
+      color: #333;
+      font-size: 3rem;
+      font-weight: 600;
+      margin-bottom: 3rem;
+  }
+
+  .author__desc {
+      font-size: 1.6rem;
+      line-height: 1.8;
+      margin-bottom: 3rem;
+  }
+
+  .author__contact, .author-social {
+      display: flex;
+      align-items: center;
+  }
+  
+  .author-social__item {
+      margin-left: 1rem;
   }
 
