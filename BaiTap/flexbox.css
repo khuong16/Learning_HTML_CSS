@@ -35,3 +35,20 @@ img {
     height: 100%;
     object-fit: cover;
 }
+
+.boxed{
+    /* width: 5rem;
+    height: 5rem; */
+    display: inline-block;
+    /* background-color: black; */
+    margin: 2rem auto;
+    /* border-left: 10px solid red;
+    border-right: 10px solid blue;
+    border-top: 10px solid orange;
+    border-bottom: 10px solid purple; */
+
+    /* tam giác bên dưới */
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid orange;
+}

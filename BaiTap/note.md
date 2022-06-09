@@ -586,7 +586,14 @@ flex-wrap: nowrap/wrap
 3. Flexbox toàn tập phần 2
 4. Flexbox toàn tập phần 3.
 5. Các thủ thuật chia layout hay mà bạn nên biết khi dùng Flexbox.
+
+Sử dụng margin-left để tối ưu các layout
+
 6. Cách vẽ tam giác bằng CSS và cách nó hoạt động.
+
+Vô trang css trick shapes
+https://css-tricks.com/the-shapes-of-css/
+
 7. Sass là gì ? Giới thiệu và cài đặt
 8. Tìm hiểu và nắm cơ bản kiến thức về Sass cho người mới.
 9. Các lỗi hay gặp khi cài đặt Sass và cách khắc phục.
