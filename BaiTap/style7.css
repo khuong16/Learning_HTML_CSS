@@ -23,7 +23,7 @@ img {
 
     /* Sắp xếp theo các div theo hàng */
     flex-direction: row;
-    flex-direction: column;
+    /* flex-direction: column; */
     /* Các phần tử sẽ cao bằng nhau */
     /* align-items: stretch; */
     /* căn phía trên đầu của các phần tử sao cho vừa đủ. */
@@ -46,6 +46,9 @@ img {
 
     /* Sự kết hợp giữa flex-direction và flex-wrap*/
     /* flex-flow: row nowrap; */
+
+    flex-direction: column;
+    /* flex-direction: column-reverse; */
 }
 
 .list__item{
@@ -53,13 +56,49 @@ img {
     background-color: orange;
     margin: 5px;
     width: 40%;
+    order: 0;
+}
+
+.list__item:nth-child(2){
+    order: 1;
+}
+
+.list__item:nth-child(3){
+    order: 3;
+}
+.list__item:nth-child(4){
+    order: 2;
 }
 
 .list__item:first-child{
-    font-size: 5rem;
-    align-self: flex-start;
+    /* font-size: 5rem; */
+    /* align-self: flex-start; */
 }
 
 .list__item:last-child{
     /* align-self: flex-end; */
+}
+
+
+.layout{
+    display: flex;
+}
+
+.icon{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 1rem;
+    background-color: red;
+    color: wheat;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.layout p {
+    --value: 10rem;
+    width: calc(100% - var(--value));
+    margin-bottom: calc(-1 * 100px);
 }
