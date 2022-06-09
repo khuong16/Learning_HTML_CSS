@@ -638,10 +638,12 @@ max-width: 1023 -> <= 1023px
 
 // 320 480 768 1024 1280 1366 1440 1600 1920
 
-
 17. Thực hành code giao diện đơn giản số 1 sử dụng responsive.
 18. Thực hành code giao diện đơn giản số 2
-19. Thực hành code giao diện đơn giản số 3 phần 1
+19. Thực hành code giao diện đơn giản số 3 
+
+20. Tìm hiểu thêm các thuộc tính khác của Flexbox
+
 20. Thực hành code giao diện đơn giản số 3 phần 2
 21. Thực hành code giao diện đơn giản số 4 phần 1
 22. Thực hành code giao diện đơn giản sô 4 phần 2
