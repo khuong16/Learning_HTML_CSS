@@ -1,0 +1,42 @@
+html {
+  font-size: 62.5%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.6rem;
+  font-weight: normal;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.dropdown {
+  width: 40rem;
+  margin: 2rem auto 0;
+}
+.dropdown__select {
+  padding: 2rem 2.5rem 2rem 4rem;
+  background-color: #42a7fe;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+.dropdown__text {
+  margin-left: 3.5rem;
+}
+.dropdown__caret {
+  margin-left: auto;
+}
+
+/*# sourceMappingURL=index.css.map */

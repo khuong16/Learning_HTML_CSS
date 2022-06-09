@@ -616,10 +616,13 @@ Lựa chọn chế độ chạy của visual studio code lựa chọn chế đ�
 10. Thực hành code giao diện dropdown phần 1
 11. Thực hành code giao diện dropdown phần 2
 12. Thực hành code giao diện dropdown phần 3
+
 13. Thực hành code giao diện đơn giản số 1 với flexbox phần 1.
 14. Thực hành code giao diện đơn giản số 1 với flexbox phần 2.
 15. Thực hành code giao diện đơn giản số 1 với flexbox phần 3
+
 16. Responsive là gì ? Giới thiệu về responsive toàn tập.
+
 17. Thực hành code giao diện đơn giản số 1 sử dụng responsive.
 18. Thực hành code giao diện đơn giản số 2
 19. Thực hành code giao diện đơn giản số 3 phần 1
