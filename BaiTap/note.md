@@ -557,29 +557,53 @@ https://loading.io/css/
 
 ## Chương 5: Flexbox toàn tập
 
-- Flexbox là gì ? Giới thiệu về Flexbox
-- Flexbox toàn tập phần 1
-- Flexbox toàn tập phần 2
-- Flexbox toàn tập phần 3.
-- Các thủ thuật chia layout hay mà bạn nên biết khi dùng Flexbox.
-- Cách vẽ tam giác bằng CSS và cách nó hoạt động.
-- Sass là gì ? Giới thiệu và cài đặt
-- Tìm hiểu và nắm cơ bản kiến thức về Sass cho người mới.
-- Các lỗi hay gặp khi cài đặt Sass và cách khắc phục.
-- Thực hành code giao diện dropdown phần 1
-- Thực hành code giao diện dropdown phần 2
-- Thực hành code giao diện dropdown phần 3
-- Thực hành code giao diện đơn giản số 1 với flexbox phần 1.
-- Thực hành code giao diện đơn giản số 1 với flexbox phần 2.
-- Thực hành code giao diện đơn giản số 1 với flexbox phần 3
+1. Flexbox là gì ? Giới thiệu về Flexbox
+2. Flexbox toàn tập phần 1
+
+Cũng sử dụng thuộc tính là
+display: flex.
+
+Muốn nó nằm theo hàng ngang thì sẽ có
+flex-direction: row
+
+Khi sử dụng flex-direction thì nó sẽ căn theo chiều dọc, tức là các cột sẽ có nội dung cao bằng nhau.
+mặc định là: align-items: stretch.
+Sử dụng align-items: flex-start là nó sẽ căn trên đầu. tương tự với flex-end và center.
+Còn với baseline thì nó sẽ căn theo đích chữ với nhau.
+
+Còn css cho từng phần tử thì sẽ dùng :first-child, :laste-child thì có thuộc tính
+align-self: flex-start/flex-end
+
+
+Còn muốn định nghĩa sắp xếp của khối đó thì có thuộc tính:
+justify-content: flex-start/flex-end/center/space-between/space-around/space-evenly
+
+Còn có thể thuộc tính là
+flex-wrap: nowrap/wrap
+
+-> flex-flow: flex-direction flex-wrap
+
+3. Flexbox toàn tập phần 2
+4. Flexbox toàn tập phần 3.
+5. Các thủ thuật chia layout hay mà bạn nên biết khi dùng Flexbox.
+6. Cách vẽ tam giác bằng CSS và cách nó hoạt động.
+7. Sass là gì ? Giới thiệu và cài đặt
+8. Tìm hiểu và nắm cơ bản kiến thức về Sass cho người mới.
+9. Các lỗi hay gặp khi cài đặt Sass và cách khắc phục.
+10. Thực hành code giao diện dropdown phần 1
+11. Thực hành code giao diện dropdown phần 2
+12. Thực hành code giao diện dropdown phần 3
+13. Thực hành code giao diện đơn giản số 1 với flexbox phần 1.
+14. Thực hành code giao diện đơn giản số 1 với flexbox phần 2.
+15. Thực hành code giao diện đơn giản số 1 với flexbox phần 3
 - Responsive là gì ? Giới thiệu về responsive toàn tập.
-- Thực hành code giao diện đơn giản số 1 sử dụng responsive.
-- Thực hành code giao diện đơn giản số 2
-- Thực hành code giao diện đơn giản số 3 phần 1
-- Thực hành code giao diện đơn giản số 3 phần 2
-- Thực hành code giao diện đơn giản số 4 phần 1
-- Thực hành code giao diện đơn giản sô 4 phần 2
-- Thực hành code giao diện đơn giản số 4 phần 3
+16. Thực hành code giao diện đơn giản số 1 sử dụng responsive.
+17. Thực hành code giao diện đơn giản số 2
+18. Thực hành code giao diện đơn giản số 3 phần 1
+19. Thực hành code giao diện đơn giản số 3 phần 2
+20. Thực hành code giao diện đơn giản số 4 phần 1
+21. Thực hành code giao diện đơn giản sô 4 phần 2
+22. Thực hành code giao diện đơn giản số 4 phần 3
 
 ## Chương 6: Các thẻ HTML về Form, Table.
 
