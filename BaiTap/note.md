@@ -623,6 +623,22 @@ Lựa chọn chế độ chạy của visual studio code lựa chọn chế đ�
 
 16. Responsive là gì ? Giới thiệu về responsive toàn tập.
 
+@media screen and (min-width: 1024px) {
+
+}
+
+@media screen and (max-width: 1023px) {
+
+}
+
+min-width: 1024 -> >= 1024px
+max-width: 1023 -> <= 1023px
+
+=> max-width = min-width - 1.
+
+// 320 480 768 1024 1280 1366 1440 1600 1920
+
+
 17. Thực hành code giao diện đơn giản số 1 sử dụng responsive.
 18. Thực hành code giao diện đơn giản số 2
 19. Thực hành code giao diện đơn giản số 3 phần 1
