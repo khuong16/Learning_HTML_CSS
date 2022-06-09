@@ -610,20 +610,23 @@ Viết theo cú pháp nesting code: code ngắn hơn.
 Dùng @if để có thể dùng câu điều kiện tương ứng.
 
 9. Các lỗi hay gặp khi cài đặt Sass và cách khắc phục.
+
+Lựa chọn chế độ chạy của visual studio code lựa chọn chế độ là cmd.
+
 10. Thực hành code giao diện dropdown phần 1
 11. Thực hành code giao diện dropdown phần 2
 12. Thực hành code giao diện dropdown phần 3
 13. Thực hành code giao diện đơn giản số 1 với flexbox phần 1.
 14. Thực hành code giao diện đơn giản số 1 với flexbox phần 2.
 15. Thực hành code giao diện đơn giản số 1 với flexbox phần 3
-- Responsive là gì ? Giới thiệu về responsive toàn tập.
-16. Thực hành code giao diện đơn giản số 1 sử dụng responsive.
-17. Thực hành code giao diện đơn giản số 2
-18. Thực hành code giao diện đơn giản số 3 phần 1
-19. Thực hành code giao diện đơn giản số 3 phần 2
-20. Thực hành code giao diện đơn giản số 4 phần 1
-21. Thực hành code giao diện đơn giản sô 4 phần 2
-22. Thực hành code giao diện đơn giản số 4 phần 3
+16. Responsive là gì ? Giới thiệu về responsive toàn tập.
+17. Thực hành code giao diện đơn giản số 1 sử dụng responsive.
+18. Thực hành code giao diện đơn giản số 2
+19. Thực hành code giao diện đơn giản số 3 phần 1
+20. Thực hành code giao diện đơn giản số 3 phần 2
+21. Thực hành code giao diện đơn giản số 4 phần 1
+22. Thực hành code giao diện đơn giản sô 4 phần 2
+23. Thực hành code giao diện đơn giản số 4 phần 3
 
 ## Chương 6: Các thẻ HTML về Form, Table.
 
