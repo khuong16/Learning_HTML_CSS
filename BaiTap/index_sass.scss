@@ -1,0 +1,76 @@
+$primary-color: #00aefd;
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
+}
+
+p{
+    color: $primary-color;
+}
+
+
+// nesting code: viết ngắn gọn hơn
+.header {
+    &-top {
+        color: red;
+        &:hover{
+            color: orange;
+        }
+    }
+    &-content {
+        font-size: 10rem;
+    }
+}
+
+// mixin code: viết 1 cái 'hàm' để nó sẽ sử dụng ở nhiều nơi
+@mixin size($width, $height: $width) {
+    width: $width;
+    height: $height;
+}
+
+
+@mixin bg($color: black) {
+    background-color: $color;
+}
+
+
+@mixin absoulteCenter($direction: "left") {
+    position: absolute;
+    // check điều kiện tương ứng
+    @if $direction == "both" {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    @if $direction == "left"{
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    @if $direction == "top" {
+        top:50%;
+        transform: translateY(-50%);
+    }
+}
+
+.boxed {
+    @include size(10rem);
+    @include bg();
+}
+
+
+.container {
+    width: 100%;
+    height: 40rem;
+    background-color: orange;
+    position: relative;
+    .boxing {
+        @include size(10rem);
+        @include bg(white);
+        @include absoulteCenter("both");
+    }
+}

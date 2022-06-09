@@ -603,6 +603,12 @@ npm install -g sass
 sass style.scss style.css --watch
 
 8. Tìm hiểu và nắm cơ bản kiến thức về Sass cho người mới.
+
+Tạo biến trong sass bằng dấu $
+Dùng @mixin dùng để tạo hàm tương ứng.
+Viết theo cú pháp nesting code: code ngắn hơn.
+Dùng @if để có thể dùng câu điều kiện tương ứng.
+
 9. Các lỗi hay gặp khi cài đặt Sass và cách khắc phục.
 10. Thực hành code giao diện dropdown phần 1
 11. Thực hành code giao diện dropdown phần 2
