@@ -1,0 +1,43 @@
+:root {
+    --green-color: #00c899;
+  }
+  
+  html {
+    font-size: 62.5%;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-size: 1.6rem;
+    font-weight: normal;
+    font-family: "Poppins", sans-serif;
+    background-color: #f3faff;
+    padding: 2rem;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  img {
+    display: block;
+    max-width: 100%;
+  }
+
+  .post {
+    padding: 2rem;
+    background-color: white;
+    border-radius: 1rem;
+    display: flex;
+    align-items: stretch;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
+  .post__left, .post__right {
+    width: calc(50% - 1rem);
+  }
