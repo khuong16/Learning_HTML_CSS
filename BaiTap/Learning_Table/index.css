@@ -87,6 +87,11 @@ td {
     border-radius: 2rem;
 }
 
+.action {
+    display: flex;
+    
+}
+
 .action-icon {
     cursor: pointer;
     margin: 0 5px;
@@ -127,4 +132,17 @@ td {
 .toggle-input:checked + .toggle-label::before {
     background-color: #2979ff;
     transform: translate(3rem, -50%);
+}
+
+/* responsive */
+@media screen and (max-width: 1279px) {
+    .table {
+        width: 100%;
+        overflow-x: scroll;
+    }
+
+    /* ẩn thanh scroll bar */
+    .table::-webkit-scrollbar{
+        display: none;
+    }
 }
