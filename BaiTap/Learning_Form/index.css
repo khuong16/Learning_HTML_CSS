@@ -33,13 +33,12 @@ img {
   max-width: 100%;
 }
 
-/* input, select, textarea, button {
+input, select, textarea, button {
   font-size: 1.6rem;
   font-weight: normal;
   font-family: "Poppins", sans-serif;
-  outline: none;
-}
-
+} 
+/*
 button {
   cursor: pointer;
 }
@@ -206,4 +205,52 @@ input[title="number"]::-webkit-inner-spin-button {
 
 .checkbox2__input:checked + .checkbox2__label .checkbox2__spin {
   transform: translateX(5rem);
+}
+
+/* Custom input, textarea, button */
+
+.input-style {
+  padding: 2rem;
+  border-radius: 8px;
+  border: 1px solid #b7c1cb;
+  color: #0e1e35;
+  font-size: 1.6rem;
+  outline: none;
+  transition: all 0.25s linear;
+  box-shadow: 0 0 0 2px #ffe1de;
+  resize: none;
+}
+
+.input-style::-webkit-input-placeholder {
+  color: #b7c1cb;
+}
+
+.input-style:focus {
+  border-color: #ff695a;
+}
+
+
+.button-style {
+  padding: 2rem;
+  border-radius: 8px;
+  border: 0;
+  outline: none;
+  color: white;
+  font-weight: 600;
+  font-size: 1.8rem;
+  margin-top: 2rem;
+  cursor: pointer;
+  background-color: #fd607d;
+  transition: all 0.25s linear;
+  box-shadow: 0 5px 0 0 #8f2c3e;
+}
+
+.button-style:hover {
+  background-color: #ffe1de;
+  color: #fd607d ;
+}
+
+.button-style:active {
+  transform: translateY(1rem);
+  box-shadow: 0 2px 0 0 #8f2c3e;
 }
