@@ -671,19 +671,22 @@ có khái niệm : flex-shrink và flex-grow.
 
 ## Chương 7: Các kiến thức bổ sung:
 
-- Review lại toàn bộ kiến thức đã học.
-- Những lưu ý, cập nhật và cách luyện tập.
-- Chia sẻ các từ tiếng Anh hay gặp khi đặt tên với BEM
-- Các thẻ HTML hay gặp khác.
-- Làm sao để cải thiện con mắt thẩm mỹ.
-- Một số kênh youtube hay về HTML, CSS
-- Một số tài khoản Instagram hay mà các bạn nên theo dõi.
-- Các extensions bổ ích mà bạn nên dùng
-- Chia sẻ kinh nghiệm làm sao code tốt hơn.
-- Các thuật ngữ trong ngành web mà bạn nên biết
-- Codepen là gì ? và vì sao bạn nên biết.
-- Các kỹ năng khác nên có của một developer.
-- Tìm hiểu thêm vài kiến thức về CSS khác.
-- Làm sao để tùy biến giao diện cho wordpress với CSS
-- Lời cảm ơn chân thành.
-- Vẫn chưa hết! Khóa học cắt giao diện nâng cao từ A-Z
+1. Review lại toàn bộ kiến thức đã học.
+2. Những lưu ý, cập nhật và cách luyện tập.
+3. Chia sẻ các từ tiếng Anh hay gặp khi đặt tên với BEM
+4. Các thẻ HTML hay gặp khác.
+5. Làm sao để cải thiện con mắt thẩm mỹ.
+6. Một số kênh youtube hay về HTML, CSS
+
+Tìm kiếm trên trang web dribble.com, symu.co,...
+
+7. Một số tài khoản Instagram hay mà các bạn nên theo dõi.
+8. Các extensions bổ ích mà bạn nên dùng
+9. Chia sẻ kinh nghiệm làm sao code tốt hơn.
+10. Các thuật ngữ trong ngành web mà bạn nên biết
+11. Codepen là gì ? và vì sao bạn nên biết.
+12. Các kỹ năng khác nên có của một developer.
+13. Tìm hiểu thêm vài kiến thức về CSS khác.
+14. Làm sao để tùy biến giao diện cho wordpress với CSS
+15. Lời cảm ơn chân thành.
+16. Vẫn chưa hết! Khóa học cắt giao diện nâng cao từ A-Z
