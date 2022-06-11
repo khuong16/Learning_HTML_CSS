@@ -32,3 +32,29 @@ img {
   display: block;
   max-width: 100%;
 }
+
+input, select, textarea, button {
+  font-size: 1.6rem;
+  font-weight: normal;
+  font-family: "Poppins", sans-serif;
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+input:focus {
+  border: 1px solid red;
+}
+
+textarea {
+  /* không cho phép người dùng kéo textarea */
+  resize: none;
+}
+
+/* giúp ẩn giá trị tăng lên, tăng xuống của giá trị number*/
+input[title="number"]::-webkit-inner-spin-button {
+  margin: 0;
+  -webkit-appearance: none;
+}
