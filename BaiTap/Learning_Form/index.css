@@ -33,7 +33,7 @@ img {
   max-width: 100%;
 }
 
-input, select, textarea, button {
+/* input, select, textarea, button {
   font-size: 1.6rem;
   font-weight: normal;
   font-family: "Poppins", sans-serif;
@@ -46,7 +46,7 @@ button {
 
 input:focus {
   border: 1px solid red;
-}
+} */
 
 textarea {
   /* không cho phép người dùng kéo textarea */
@@ -57,4 +57,49 @@ textarea {
 input[title="number"]::-webkit-inner-spin-button {
   margin: 0;
   -webkit-appearance: none;
+}
+.checkbox__input {
+  display: none;
+}
+
+.checkbox__input:checked + .checkbox__label::after {
+  opacity: 1;
+  visibility: visible;
+}
+
+.checkbox {
+  margin-top: 2rem;
+}
+
+.checkbox__label {
+  position: relative;
+  padding-left: 5rem;
+  cursor: pointer;
+}
+
+.checkbox__label::before {
+  content: "";
+  width: 4rem;
+  height: 4rem;
+  background-color: #fc556f;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 1rem;
+}
+
+.checkbox__label::after {
+  position: absolute;
+  content: "";
+  top:0;
+  left:1rem;
+  width: 2rem;
+  height: 1rem;
+  transform: rotate(-45deg);
+  border-left: 3px solid white;
+  border-bottom: 3px solid white;
+  opacity: 0;
+  visibility: hidden;
+  transform: 0.25s linear;
 }
