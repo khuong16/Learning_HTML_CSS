@@ -33,26 +33,31 @@
                     <span class="signup-social__text">Sign up with Google</span>
                 </div>
             </div>
-            <form action="" class="signup-form">
+            <form action="" class="signup-form" autocomplete="off">
                 <div class="signup-form__row">
                     <div class="signup-form__group">
                         <label for="name" class="signup-form__label">Name</label>
-                        <input type="text" name="" id="name" class="signup-form__input">
+                        <div class="signup-form__validate">
+                            <input type="text" name="" id="name" class="signup-form__input" required placeholder="Name">
+                            <div class="signup-form__check">
+                                <i class="fa fa-check"></i>
+                            </div>
+                        </div>
                     </div>
                     <div class="signup-form__group">
                         <label for="email" class="signup-form__label">Email</label>
-                        <input type="email" name="" id="email" class="signup-form__input">
+                        <input type="email" name="" id="email" class="signup-form__input" required placeholder="Email">
                     </div>
                 </div>
                 <div class="signup-form__group">
                     <label for="password" class="signup-form__label">Password</label>
-                    <input type="password" name="" id="password" class="signup-form__input">
+                    <input type="password" name="" id="password" class="signup-form__input" required placeholder="Password">
                 </div>
                 <div class="signup-form__term">
                     <input type="checkbox" name="" id="term">
                     <label for="term">I have read and agree with term</label>
                 </div>
-                <button class="signup-form__submit">
+                <button class="signup-form__submit" type="submit">
                     <i class="fa fa-arrow-right"></i>
                 </button>
                 <p class="signup__already">Already sigin have an account <a href="#">Signin</a></p>
