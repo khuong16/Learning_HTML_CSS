@@ -140,3 +140,36 @@ input[title="number"]::-webkit-inner-spin-button {
   transform: translateY(-50%);
   transition: 0.25s linear;
 }
+
+
+/* Custom file */
+
+.file {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 1rem;
+  border: 1px solid var(--primary-color);
+  background-color: var(--secondary-color);
+  color: white;
+  position: relative;
+
+}
+
+.file__input {
+  display: none;
+}
+
+.file__label{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  cursor: pointer;
+  z-index: 2;
+}
