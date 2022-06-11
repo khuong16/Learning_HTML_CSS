@@ -96,7 +96,7 @@ button {
 
 .signup-social__item {
     padding: 1.5rem 2.5rem;
-    border-radius: 6px;
+    border-radius: 10px;
     border: 1px solid #eee;
     cursor: pointer;
     display: flex;
@@ -110,6 +110,91 @@ button {
     margin-right: 2rem;
 }
 
+/* input */
+.signup-form__label {
+  color: var(--text-color);
+  display: inline-block;
+  margin-bottom: 1rem;
+  transform: translateX(1rem);
+  cursor: pointer;
+}
+
+.signup-form__input {
+  padding: 1.5rem 2rem;
+  border: 1px solid #eee;
+  background-color: #fafbff;
+  border-radius: 10px;
+  display: block;
+  outline: none;
+  width: 100%;
+}
+
+.signup-form__row {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+}
+
+.signup-form_row .signup-form__group {
+  width: calc(50% - 1.5rem);
+}
+
+.signup-form__term input {
+  display: none;
+}
+
+.signup-form__term input:checked + label::before {
+  border-color: var(--primary-color);
+  background-color:  var(--primary-color);
+}
+
+.signup-form__term label {
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 3rem;
+  padding-left: 3.5rem;
+  margin-bottom: 5rem;
+}
+
+.signup-form__term label::before {
+  content: "";
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 8px;
+  background-color: #eee;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  border: 1px solid #ccc;
+  transition: all 0.25s linear;
+}
+
+.signup-form__submit {
+  height: 8rem;
+  width: 8rem;
+  color: white;
+  border: 0;
+  border-radius: 3rem;
+  background-color:var(--primary-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  cursor: pointer;
+  margin-bottom: 65px;
+  box-shadow: 0 10px 10px 0px #fa4c5271;
+}
+
+.signup__already {
+  color: var(--text-color);
+}
+
+.signup__already a {
+  color: var(--primary-color);
+}
 
 
 
