@@ -1,12 +1,13 @@
 :root {
   --green-color: #00c899;
-  --primary-color: #fc556f;
+  --primary-color: #fa4c53;
   --secondary-color: #fd9c84;
   --gradient-color: linear-gradient(
     to right,
     var(--primary-color),
     var(--secondary-color)
   );
+  --text-color: #291667;
 }
 
 html {
@@ -23,7 +24,7 @@ body {
   font-family: "Poppins", sans-serif;
   background-color: #fbfbfd;
   padding: 5rem;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 a {
@@ -50,4 +51,66 @@ button {
   background-color: white;
   border-radius: 10px;
   box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1);
+  padding: 5rem;
+  display: flex;
+  justify-content: space-between;
 }
+
+.signup__content, .signup__image {
+    width: calc(50% - 4rem);
+}
+
+.signup__heading {
+    font-weight: bold;
+    font-size: 4.5rem;
+    margin-bottom: 3rem;
+    color: #291667;
+}
+
+.signup__caption {
+    color: var(--primary-color);
+    font-weight: bold;
+    margin-bottom: 4.5rem;
+    position: relative;
+    padding-left: 12rem;
+}
+
+.signup__caption::before {
+    content: "";
+    position: absolute;
+    width: 10rem;
+    height: 2px;
+    background-color: var(--primary-color);
+    left: 0;
+    top: 50%;
+    margin-top: -1px;
+}
+
+.signup-social {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    margin-bottom: 6rem;
+
+}
+
+.signup-social__item {
+    padding: 1.5rem 2.5rem;
+    border-radius: 6px;
+    border: 1px solid #eee;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-color);
+    width: calc(50% - 1.5rem);
+}
+
+.signup-social__icon {
+    margin-right: 2rem;
+}
+
+
+
+
+
